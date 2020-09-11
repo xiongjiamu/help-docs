@@ -16,7 +16,7 @@
 
 弹出列表中最多显示 5 个最相关的匹配项，当您从列表中选择一个项目时，该值将输入到该字段中。输入的字符越多，匹配结果就越精确。
 
-与" [快速操作"](/docs/user/project/quick-actions.md)结合使用时，字符自动完成将会十分有用。
+与" [快速操作"](/docs/user/project/quick-actions)结合使用时，字符自动完成将会十分有用。
 
 ## 举例[](#example "Permalink")
 

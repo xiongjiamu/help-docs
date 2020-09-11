@@ -1,14 +1,14 @@
 # 代码仓库[](#repository "Permalink")
 
-[代码仓库](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)是用于将代码库存储在 CODEChina 中并通过版本控制对其进行更改的存储库。代码仓库是[项目](/docs/user/project.md)的一部分，它具有许多其他功能。 
+[代码仓库](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)是用于将代码库存储在 CODEChina 中并通过版本控制对其进行更改的存储库。代码仓库是[项目](/docs/user/project)的一部分，它具有许多其他功能。 
 
 ## 新建一个代码仓库[](#create-a-repository "Permalink")
 
-要创建一个新的代码仓库，您需要做的就是[创建一个新项目](/docs/basic/create-project.md)或 fork 一个现有项目。
+要创建一个新的代码仓库，您需要做的就是[创建一个新项目](/docs/basic/create-project)或 fork 一个现有项目。
 
 创建新项目后，您可以通过界面或通过命令行添加新文件， 要从命令行添加文件，请遵循创建新项目时在屏幕上显示的说明。
 
-> **重要提示：**出于安全原因，强烈建议您在使用命令行时[通过 SSH 与 CODEChina 连接](/docs/ssh.md) 。
+> **重要提示：**出于安全原因，强烈建议您在使用命令行时[通过 SSH 与 CODEChina 连接](/docs/ssh) 。
 
 ## 文件[](#files "Permalink")
 
@@ -22,17 +22,17 @@
 
 用户界面允许您执行许多 Git 命令，而无在命令行中执行命令。您可以通过用户界面很容易的实现以下操作：
 
-*   [新建文件](/docs/user/project/repo/web-editor.md#create-a-file)
-*   [上传文件](/docs/user/project/repo/web-editor.md#upload-a-file)
-*   [文件模板](/docs/user/project/repo/web-editor.md#template-dropdowns)
-*   [新建目录](/docs/user/project/repo/web-editor.md#create-a-directory)
-*   [新建合并请求](/docs/user/project/repo/web-editor.md#tips)
-*   [查找文件](/docs/user/project/repo/file-find.md)
-*   [blame](/docs/user/project/repo/blame.md))
+*   [新建文件](/docs/user/project/repo/web-editor#create-a-file)
+*   [上传文件](/docs/user/project/repo/web-editor#upload-a-file)
+*   [文件模板](/docs/user/project/repo/web-editor#template-dropdowns)
+*   [新建目录](/docs/user/project/repo/web-editor#create-a-directory)
+*   [新建合并请求](/docs/user/project/repo/web-editor#tips)
+*   [查找文件](/docs/user/project/repo/file-find)
+*   [blame](/docs/user/project/repo/blame))
 
 ### 查找文件[](#find-files "Permalink")
 
-使用[文件查找器](/docs/user/project/repo/file-find.md)在代码仓库中搜索文件。
+使用[文件查找器](/docs/user/project/repo/file-find)在代码仓库中搜索文件。
 
 ### 支持的语言标记[](#supported-markup-languages-and-extensions "Permalink")
 
@@ -43,7 +43,7 @@
 | 标记语言 | 扩展名 |
 | --- | --- |
 | 纯文本 | `txt` |
-| [Markdown](/docs/user/markdown.md) | `mdown`, `mkd`, `mkdn`, `md`, `markdown` |
+| [Markdown](/docs/user/markdown) | `mdown`, `mkd`, `mkdn`, `md`, `markdown` |
 | [reStructuredText](https://docutils.sourceforge.io/rst.html) | `rst` |
 | AsciiDoc | `adoc`, `ad`, `asciidoc` |
 | [Textile](https://textile-lang.com/) | `textile` |
@@ -61,7 +61,7 @@
 有关优先级的一些注意事项：
 
 1.  当`README`文件和`index`文件同时存在时， `README`文件将始终优先
-2.  如果存在多个具有不同扩展名的文件，则按字母顺序排列，但不带扩展名的文件例外，该扩展名始终优先。例如， `README.adoc`将优先于`README.md` ，而`README.rst`将优先于`README` 
+2.  如果存在多个具有不同扩展名的文件，则按字母顺序排列，但不带扩展名的文件例外，该扩展名始终优先。例如， `README.adoc`将优先于`README` ，而`README.rst`将优先于`README` 
 
 ### Jupyter Notebook files[](#jupyter-notebook-files "Permalink")
 
@@ -92,17 +92,17 @@
 
 ## 分支[](#branches "Permalink")
 
-有关详细信息，请参见[分支](/docs/user/project/repo/branches.md) 。
+有关详细信息，请参见[分支](/docs/user/project/repo/branches) 。
 
 ## 提交[](#commits "Permalink")
 
 [提交更改时](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository) ，您会将这些更改引入分支机构。通过命令行，您可以在提交之前多次提交。
 
 *   **提交消息：**提交消息对于标识正在更改的内容以及更重要的原因至关重要. 在 GitLab 中，您可以将关键字添加到提交消息中，以执行以下操作之一：
-    *   **交叉链接问题和合并请求：** [交叉链接](/docs/user/project/issues/crosslinking.md#from-commit-messages)非常适合跟踪工作流程中与之相关的内容. 如果您在提交消息中提到问题或合并请求，它们将显示在各自的线程上
-*   ** Cherry-pick 提交：**您可以直接从界面 [cherry-pick](/docs/user/project/merge-request/cherry-pick.md) 
-*   **Revert 提交：**可以将提交从界面[还原](/docs/user/project/merge-request/revert.md#reverting-a-commit)到所选分支
-*   **签署提交：**使用 GPG [签署您的提交](/docs/user/project/repo/gpg-sign.md) 
+    *   **交叉链接问题和合并请求：** [交叉链接](/docs/user/project/issues/crosslinking#from-commit-messages)非常适合跟踪工作流程中与之相关的内容. 如果您在提交消息中提到问题或合并请求，它们将显示在各自的线程上
+*   ** Cherry-pick 提交：**您可以直接从界面 [cherry-pick](/docs/user/project/merge-request/cherry-pick) 
+*   **Revert 提交：**可以将提交从界面[还原](/docs/user/project/merge-request/revert#reverting-a-commit)到所选分支
+*   **签署提交：**使用 GPG [签署您的提交](/docs/user/project/repo/gpg-sign) 
 
 ## 项目和仓库大小[](#project-and-repository-size "Permalink")
 

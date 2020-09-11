@@ -8,10 +8,10 @@ Git 文件历史记录提供与文件关联的提交历史记录的信息，您�
 
 ## 在 git 中使用[](#associated-git-command "Permalink")
 
-如果要从`git`查看文件历史记录，则可以使用`git log <filename>`命令。例如，如果要在本地目录中找到有关`README.md`文件的`history`信息，请运行以下命令：
+如果要从`git`查看文件历史记录，则可以使用`git log <filename>`命令。例如，如果要在本地目录中找到有关`README`文件的`history`信息，请运行以下命令：
 
 ```markdown
-git log README.md 
+git log README 
 ```
 
 您将看到类似于以下内容的输出，其中包括 UTC 格式的提交时间：

@@ -58,9 +58,9 @@
 
 选择这些选项之一后，将基于项目的默认分支（默认为`master`创建新的分支或分支与合并请求. 分支名称将基于 Issue 的标题，并作为前缀具有其内部 ID。因此，上面的示例屏幕快照将创建一个名为`1-webpack`的分支。
 
-当您在一个空的项目中单击**创建分支**按钮时，CODEChina 会自动创建一个`master`分支， `README.md`提交一个空白的`README.md`文件，并根据 Issue 标题创建并将您重定向到新分支（如果您的项目已经配置了）。
+当您在一个空的项目中单击**创建分支**按钮时，CODEChina 会自动创建一个`master`分支， `README`提交一个空白的`README`文件，并根据 Issue 标题创建并将您重定向到新分支（如果您的项目已经配置了）。
 
-创建分支后，您可以编辑代码仓库中的文件以解决此 Issue。当基于新创建的分支创建合并请求时，描述字段将自动显示[ Issue 关闭模式](/docs/user/project/issues/manage.md#closing-issues-automatically) `Closes #ID` ，其中`ID`为 Issue 的 ID，一旦合并请求被合并， Issue 将自动关闭。
+创建分支后，您可以编辑代码仓库中的文件以解决此 Issue。当基于新创建的分支创建合并请求时，描述字段将自动显示[ Issue 关闭模式](/docs/user/project/issues/manage#closing-issues-automatically) `Closes #ID` ，其中`ID`为 Issue 的 ID，一旦合并请求被合并， Issue 将自动关闭。
 
 ### 从项目页新建分支[](#create-a-new-branch-from-a-projects-dashboard "Permalink")
 

@@ -4,9 +4,9 @@
 
 将更改推送到新分支后，您可以：
 
-*   创建[合并请求](/docs/user/project/merge-request.md)
+*   创建[合并请求](/docs/user/project/merge-request)
 *   执行内联代码审查
-*   与团队[讨论](/docs/user/discussions.md)实施情况
+*   与团队[讨论](/docs/user/discussions)实施情况
 
 有关使用 CODEChina 管理分支的更多信息，请参见：
 
@@ -21,9 +21,9 @@
 
 创建新项目时 ，系统会将`master`设置为代码仓库的默认分支。您可以在项目的**项目设置>仓库>默认分支**下选择另一个分支作为项目的默认分支。
 
-通过[ Issue 关闭模式](/docs/user/project/issues/manage.md#closing-issues-automatically)直接从合并请求中[关闭 Issue](/docs/user/project/issues/manage.md#closing-issues-automatically)时，目标是项目的**默认分支** 。
+通过[ Issue 关闭模式](/docs/user/project/issues/manage#closing-issues-automatically)直接从合并请求中[关闭 Issue](/docs/user/project/issues/manage#closing-issues-automatically)时，目标是项目的**默认分支** 。
 
-项目初始化时还对默认分支进行了[保护](/docs/user/project/protected-branch.md#protected-branches)，以防止意外删除和强制推送。
+项目初始化时还对默认分支进行了[保护](/docs/user/project/protected-branch#protected-branches)，以防止意外删除和强制推送。
 
 ## 对比[](#compare "Permalink")
 
@@ -40,7 +40,7 @@
 
 [![Delete merged branches](/docs/img/delete_merged_branches.png)](/docs/img/delete_merged_branches.png)
 
-此功能允许合并的分支被批量删除，作为此操作的一部分，只有已合并[但未受保护的](/docs/user/project/protected-branch.md)分支才会被删除。
+此功能允许合并的分支被批量删除，作为此操作的一部分，只有已合并[但未受保护的](/docs/user/project/protected-branch)分支才会被删除。
 
 这在清理那些合并请求时未自动删除的旧分支时非常好用。
 

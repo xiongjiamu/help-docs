@@ -1,6 +1,6 @@
 # 操作Issue[](#操作Issue "Permalink")
 
-请参考[ Issue 文档](/docs/user/project/issues.md)以了解更多关于 Issue 的介绍。
+请参考[ Issue 文档](/docs/user/project/issues)以了解更多关于 Issue 的介绍。
 
 ## Issue的元素[](#parts-of-an-issue "Permalink")
 
@@ -40,11 +40,11 @@ Issue 从状态（打开或关闭）开始，然后是作者，并包括许多�
 
 单击" **新建 Issue"**将打开一个新窗口，可以在同一项目中创建一个新 Issue。单击**关闭 Issue**将关闭此 Issue，但不会被删除。如果 Issue 已经关闭，您仍然可以访问它，并且按钮将显示**重新开启 issue** ，您可以单击以重新打开 Issue，重新开放的 Issue 与其他任何 Issue 都没有不同。
 
-如果您无权修改 Issue，则" **关闭 Issue"**按钮将替换为" **举报 Issue"** ，您可以单击该按钮以[提交](/docs/user/abuse.md)有关该 Issue [的滥用情况报告](/docs/user/abuse.md)； 如果您有权修改 Issue，但仅在关闭 Issue后，它也会显示.
+如果您无权修改 Issue，则" **关闭 Issue"**按钮将替换为" **举报 Issue"** ，您可以单击该按钮以[提交](/docs/user/abuse)有关该 Issue [的滥用情况报告](/docs/user/abuse)； 如果您有权修改 Issue，但仅在关闭 Issue后，它也会显示.
 
 ### 待办事项[](#to-do "Permalink")
 
-您可以在[待办事项列表](/docs/user/todo.md)添加待办事项或从中删除待办事项。具体可以执行的操作取决于待办事项是否已在"任务列表"中，如果问题是：
+您可以在[待办事项列表](/docs/user/todo)添加待办事项或从中删除待办事项。具体可以执行的操作取决于待办事项是否已在"任务列表"中，如果问题是：
 
 *   已在您的待办事项清单上：该按钮标有" **标记为已完成"** ，单击按钮以从您的任务列表中删除该问题
 *   不在您的待办事项清单上：该按钮标有**添加待办事项** ，单击按钮将问题添加到您的"任务列表"中
@@ -62,19 +62,19 @@ Issue 从状态（打开或关闭）开始，然后是作者，并包括许多�
 
 ### 里程碑[](#milestone "Permalink")
 
-选择一个[里程碑](/docs/user/project/milestone.md) ，并将 Issue 归类到其中。
+选择一个[里程碑](/docs/user/project/milestone) ，并将 Issue 归类到其中。
 
 ### 工时统计[](#time-tracking "Permalink")
 
-使用[快速行动](/docs/user/project/quick-actions.md)来[跟踪估计和花费在 Issue 上的时间](/docs/user/project/time-track.md) ，您可以添加解决 Issue [所需时间](/docs/user/project/time-track.md#estimates)的[估计](/docs/user/project/time-track.md#estimates)，还可以添加解决 Issue[所花费的时间](/docs/user/project/time-track.md#time-spent) 。
+使用[快速行动](/docs/user/project/quick-actions)来[跟踪估计和花费在 Issue 上的时间](/docs/user/project/time-track) ，您可以添加解决 Issue [所需时间](/docs/user/project/time-track#estimates)的[估计](/docs/user/project/time-track#estimates)，还可以添加解决 Issue[所花费的时间](/docs/user/project/time-track#time-spent) 。
 
 ### 截止日期[](#due-date "Permalink")
 
-当您的工作时间很紧时，有一种方法来为实现和解决 Issue 设置截止日期将尤为重要。这可以在[截止日期](/docs/user/project/issues/due-date.md)元素中完成，截止日期可以根据需要进行多次更改。
+当您的工作时间很紧时，有一种方法来为实现和解决 Issue 设置截止日期将尤为重要。这可以在[截止日期](/docs/user/project/issues/due-date)元素中完成，截止日期可以根据需要进行多次更改。
 
 ### 标签[](#labels "Permalink")
 
-通过给 Issue 加上[标签](/docs/user/project/label.md)来对其进行分类，它们有助于组织工作流程，并使您能够更顺畅的使用看板。
+通过给 Issue 加上[标签](/docs/user/project/label)来对其进行分类，它们有助于组织工作流程，并使您能够更顺畅的使用看板。
 
 还可以为组织标签分配 Issue ，组织标签允许您对同一组内的所有项目使用相同的标签，它们的工作原理完全相同，并且可立即用于该组织的所有项目。
 
@@ -82,19 +82,19 @@ Issue 从状态（打开或关闭）开始，然后是作者，并包括许多�
 
 ### 机密性[](#confidentiality "Permalink")
 
-您可以[将 Issue 设置为机密](/docs/user/project/issues/confidential.md)， 设置后，未经授权的用户将无法访问该 Issue，也不会在项目看板或 Issue 列表中看到该 Issue。
+您可以[将 Issue 设置为机密](/docs/user/project/issues/confidential)， 设置后，未经授权的用户将无法访问该 Issue，也不会在项目看板或 Issue 列表中看到该 Issue。
 
 ### 锁定 Issue[](#lock-issue "Permalink")
 
-您可以[锁定 Issue 中的讨论](/docs/user/discussions.md) ，以防止添加更多评论。
+您可以[锁定 Issue 中的讨论](/docs/user/discussions) ，以防止添加更多评论。
 
 ### 参与者[](#participants "Permalink")
 
-涉及该 Issue 的所有用户，他们要么参与了该 Issue 的[讨论](/docs/user/discussions.md) ，要么在描述或讨论中被提及。
+涉及该 Issue 的所有用户，他们要么参与了该 Issue 的[讨论](/docs/user/discussions) ，要么在描述或讨论中被提及。
 
 ### 通知[](#notifications "Permalink")
 
-单击图标以启用/禁用该 Issue 的[通知](/docs/user/account/email-notify.md#issue--epics--merge-request-events) ，如果您以任何方式参与了该 Issue，它将自动启用。
+单击图标以启用/禁用该 Issue 的[通知](/docs/user/account/email-notify#issue--epics--merge-request-events) ，如果您以任何方式参与了该 Issue，它将自动启用。
 
 *   **启用**: 如果您不是该 Issue 的参与者，但想要了解该 Issue 的进展，您可以启用并订阅该 Issue 的更新通知
 *   **禁用** ：如果您正在接收有关该 Issue 的更新通知，但不再希望接收它们，请禁用该通知
@@ -105,7 +105,7 @@ Issue 从状态（打开或关闭）开始，然后是作者，并包括许多�
 
 ### 描述[](#description "Permalink")
 
-纯文本标题和 Issue 描述位于 Issue 页面的顶部，该描述完全支持[Markdown](/docs/user/markdown.md#gitlab-flavored-markdown-gfm) ，支持许多格式。问题历史记录中列出了对 Issue 描述的更改记录。
+纯文本标题和 Issue 描述位于 Issue 页面的顶部，该描述完全支持[Markdown](/docs/user/markdown#gitlab-flavored-markdown-gfm) ，支持许多格式。问题历史记录中列出了对 Issue 描述的更改记录。
 
 ### 提及[](#mentions "Permalink")
 
@@ -117,11 +117,11 @@ Issue 从状态（打开或关闭）开始，然后是作者，并包括许多�
 
 ### 相关的合并请求[](#related-merge-requests "Permalink")
 
-该 Issue 的描述或 Issue 讨论中提到的[合并请求](/docs/user/project/issues/crosslinking.md#from-merge-requests)在此处列为[相关合并请求](/docs/user/project/issues/crosslinking.md#from-merge-requests) ，另外，如果当前 Issue 在另一个合并请求中被提及，则该合并请求也将在此处列出。
+该 Issue 的描述或 Issue 讨论中提到的[合并请求](/docs/user/project/issues/crosslinking#from-merge-requests)在此处列为[相关合并请求](/docs/user/project/issues/crosslinking#from-merge-requests) ，另外，如果当前 Issue 在另一个合并请求中被提及，则该合并请求也将在此处列出。
 
 ### 点赞[](#award-emoji "Permalink")
 
-您可以为该 Issue 点赞， 有"顶"和"踩"两种快捷方式，或者您可以单击浅灰色的"笑脸"图标并从可用的[Markdown Emoji](/docs/user/markdown.md#emoji)下拉列表中选择其他表情。
+您可以为该 Issue 点赞， 有"顶"和"踩"两种快捷方式，或者您可以单击浅灰色的"笑脸"图标并从可用的[Markdown Emoji](/docs/user/markdown#emoji)下拉列表中选择其他表情。
 
 **提示：在讨论中**发布"+1"作为评论会对该 Issue 的所有参与/订阅者造成垃圾邮件，也会使讨论内容显得混乱，因此不建议这样做.。给 Issue 点赞是一种让他们知道您的反应而不会发送垃圾邮件的方法，我们更建议您使用这种方式。
 
@@ -141,7 +141,7 @@ Issue 从状态（打开或关闭）开始，然后是作者，并包括许多�
 
 通过一个操作同时完成创建一个新的分支和**草稿**合并请求， 默认情况下，该分支将被命名为`issuenumber-title` ，但是您可以选择任何名称，并且系统会验证该分支是否已经被使用。创建的合并请求将自动继承 Issue 的里程碑和标签，并设置为在合并时自动关闭 Issue 。
 
-（可选）您可以选择仅创建一个[新分支](/docs/user/project/repo/web-editor.md#create-a-new-branch-from-an-issue) ，并以该 Issue 命名。
+（可选）您可以选择仅创建一个[新分支](/docs/user/project/repo/web-editor#create-a-new-branch-from-an-issue) ，并以该 Issue 命名。
 
 ### Issue 历史记录[](#issue-history "Permalink")
 

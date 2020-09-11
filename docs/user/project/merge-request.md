@@ -28,8 +28,8 @@
 3.  您的更改将通过 Review Apps 进行预览
 4.  您要求您的网页设计师实施
 5.  您要求您的经理批准
-6.  一旦批准，您的合并请求将被[squash](/docs/user/project/merge-request/squash.md) ，并[部署到暂存中](https://about.gitlab.com/blog/2016/08/26/ci-deployment-and-environments/)
-7.  您的生产团队[cherry-pick](/docs/user/project/merge-request/cherry-pick.md)合并提交到生产中
+6.  一旦批准，您的合并请求将被[squash](/docs/user/project/merge-request/squash) ，并[部署到暂存中](https://about.gitlab.com/blog/2016/08/26/ci-deployment-and-environments/)
+7.  您的生产团队[cherry-pick](/docs/user/project/merge-request/cherry-pick)合并提交到生产中
 
 ## 概览[](#overview "Permalink")
 
@@ -45,7 +45,7 @@ MR 还包含导航选项卡，从中可以查看线程上正在进行的讨论�
 
 ## 新建合并请求[](#creating-merge-requests "Permalink")
 
-点击了解 [如何创建一个新的合并请求](/docs/user/project/merge-request/create-merge-request.md)
+点击了解 [如何创建一个新的合并请求](/docs/user/project/merge-request/create-merge-request)
 
 ## 管理和查看合并请求[](#reviewing-and-managing-merge-requests "Permalink")
 
@@ -59,5 +59,5 @@ MR 还包含导航选项卡，从中可以查看线程上正在进行的讨论�
 
 使用 CODEChina 进行合并请求的主要方法有两种：
 
-1.  在单个存储库中使用[受保护的分支](/docs/user/project/protected-branch.md)
+1.  在单个存储库中使用[受保护的分支](/docs/user/project/protected-branch)
 2.  使用权威项目的分支

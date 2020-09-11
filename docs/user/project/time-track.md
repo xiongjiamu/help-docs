@@ -15,7 +15,7 @@
 
 ## 如何更新数据[](#how-to-enter-data "Permalink")
 
-时间跟踪可以如下两个[快速操作](/docs/user/project/quick-actions.md) ： `/spend`和`/estimate` 
+时间跟踪可以如下两个[快速操作](/docs/user/project/quick-actions) ： `/spend`和`/estimate` 
 
 快速操作既可以用于 Issue 或合并请求的正文中，也可以用于 Issue 或合并请求的注释中。
 

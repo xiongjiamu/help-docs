@@ -10,9 +10,9 @@
 
 除了标准的评论形式外，您还可以选择以话题讨论的方式创建评论， 收到回复后，评论也将是[话题讨论](#start-a-thread-by-replying-to-a-standard-comment) 的形式。
 
-评论区域支持[Markdown](/docs/user/markdown.md)和[快速操作](/docs/user/project/quick-actions.md) ， 您可以随时编辑自己的评论，拥有" [maintainer"](/docs/user/permissions.md)或更高权限的用户也可以编辑其他人的评论。
+评论区域支持[Markdown](/docs/user/markdown)和[快速操作](/docs/user/project/quick-actions) ， 您可以随时编辑自己的评论，拥有" [maintainer"](/docs/user/permissions)或更高权限的用户也可以编辑其他人的评论。
 
-您还可以通过回复评论通知电子邮件来回复评论，回复标准评论会创建另一个标准评论。回复主题评论会在主题中创建回复，电子邮件回复支持[Markdown](/docs/user/markdown.md)和[快速操作](/docs/user/project/quick-actions.md)。
+您还可以通过回复评论通知电子邮件来回复评论，回复标准评论会创建另一个标准评论。回复主题评论会在主题中创建回复，电子邮件回复支持[Markdown](/docs/user/markdown)和[快速操作](/docs/user/project/quick-actions)。
 
 **注意：**每个对象最多只能有 5,000 条评论，例如：issue，epic 及合并请求。
 
@@ -146,6 +146,6 @@
 *   **完成审阅** ：提交**审阅中的**所有评论，使其他用户可以看到它们
 *   **立即添加评论** ：提交常规评论，而不是审阅的一部分
 
-您可以在评论中使用[快速操作](/docs/user/project/quick-actions.md) ，评论也将会显示提交评论后即将执行的操作。
+您可以在评论中使用[快速操作](/docs/user/project/quick-actions) ，评论也将会显示提交评论后即将执行的操作。
 
 要向评论添加更多评论，请照常开始写评论，然后单击**添加到评论**按钮，这会将评论添加到评论中。

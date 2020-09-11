@@ -10,41 +10,41 @@
 
 **代码仓库:**
 
-*   [Issue](/docs/user/project/issues.md) ：与您的团队讨论问题内的实现
-    *   [看板](/docs/user/project/kanban.md) ：组织工作流程并确定其优先级
-*   [代码仓库](/docs/user/project/repo.md) ：将代码托管在完全集成的平台中
-    *   [分支](/docs/user/project/repo/branches.md) ：使用 Git 分支策略在代码上进行协作
-    *   [受保护的分支机构](/docs/user/project/protected-branch.md) ：防止协作者弄乱历史记录或在未经审查的情况下推送代码
-    *   [受保护的标签](/docs/user/project/protected-tag.md) ：控制谁有权创建标签，并防止意外更新或删除
+*   [Issue](/docs/user/project/issues) ：与您的团队讨论问题内的实现
+    *   [看板](/docs/user/project/kanban) ：组织工作流程并确定其优先级
+*   [代码仓库](/docs/user/project/repo) ：将代码托管在完全集成的平台中
+    *   [分支](/docs/user/project/repo/branches) ：使用 Git 分支策略在代码上进行协作
+    *   [受保护的分支机构](/docs/user/project/protected-branch) ：防止协作者弄乱历史记录或在未经审查的情况下推送代码
+    *   [受保护的标签](/docs/user/project/protected-tag) ：控制谁有权创建标签，并防止意外更新或删除
     *   储存库镜像
-    *   [签署提交](/docs/user/project/repo/gpg-sign.md) ：使用 GPG 签署您的提交
+    *   [签署提交](/docs/user/project/repo/gpg-sign) ：使用 GPG 签署您的提交
     *   部署令牌 ：管理基于项目的部署令牌，这些令牌允许永久访问存储库和 Container Registry.
-*   [Web IDE](/docs/user/project/webide.md)
+*   [Web IDE](/docs/user/project/webide)
 
 **Release 及合并请求：**
 
-*   [Issue](/docs/user/project/issues.md) ：与您的团队讨论问题内的实现
-    *   [发行板](/docs/user/project/kanban.md) ：组织工作流程并确定其优先级
-*   [合并请求](/docs/user/project/merge-request.md) ：应用您的分支策略并获得团队的审查
+*   [Issue](/docs/user/project/issues) ：与您的团队讨论问题内的实现
+    *   [发行板](/docs/user/project/kanban) ：组织工作流程并确定其优先级
+*   [合并请求](/docs/user/project/merge-request) ：应用您的分支策略并获得团队的审查
     *   合并请求批准 ：实施更改之前请求批准
-    *   [修复合并中的冲突](/docs/user/project/merge-request/resolve-conflicts.md) ：直接从网页中使用 Git diff 工具
+    *   [修复合并中的冲突](/docs/user/project/merge-request/resolve-conflicts) ：直接从网页中使用 Git diff 工具
     *   审查应用程序 ：按分支实时预览合并请求中建议的更改结果
-*   [标签](/docs/user/project/label.md) ：按标签整理问题并合并请求
-*   [时间跟踪](/docs/user/project/time-track.md) ：跟踪估计在完成问题或合并请求上花费的时间和时间
-*   [里程碑](/docs/user/project/milestone.md) ：朝着目标日期迈进
-*   [描述模板](/docs/user/project/description-template.md) ：为项目定义特定于上下文的模板，并为您的项目合并请求描述字段
-*   [斜杠命令（快速操作）](/docs/user/project/quick-actions.md) ：针对问题或合并请求的常见操作的文本快捷方式
-*   [自动完成字符](/docs/user/project/autofill.md) ：自动完成对用户，组，问题，合并请求和其他 GitLab 元素的引用
-*   [Web IDE](/docs/user/project/webide.md)
+*   [标签](/docs/user/project/label) ：按标签整理问题并合并请求
+*   [时间跟踪](/docs/user/project/time-track) ：跟踪估计在完成问题或合并请求上花费的时间和时间
+*   [里程碑](/docs/user/project/milestone) ：朝着目标日期迈进
+*   [描述模板](/docs/user/project/description-template) ：为项目定义特定于上下文的模板，并为您的项目合并请求描述字段
+*   [斜杠命令（快速操作）](/docs/user/project/quick-actions) ：针对问题或合并请求的常见操作的文本快捷方式
+*   [自动完成字符](/docs/user/project/autofill) ：自动完成对用户，组，问题，合并请求和其他 GitLab 元素的引用
+*   [Web IDE](/docs/user/project/webide)
 
 **其他特性：**
 
-*   [Wiki](/docs/user/project/wiki.md) ：在集成的 Wiki 中记录您的项目
+*   [Wiki](/docs/user/project/wiki) ：在集成的 Wiki 中记录您的项目
 *   代码片 ：存储，共享和协作代码片段
 *   价值流分析 ：查看您的开发生命周期
 *   分析：配置对您的项目至关重要的见解
 *   语法高亮 ：一种自定义代码块的替代方法，可替代默认语言选择
-*   [Release](/docs/user/project/releases.md) ：一种跟踪项目中可交付成果的方式，可作为源，构建输出，其他元数据和与代码的发行版本相关的其他工件的快照
+*   [Release](/docs/user/project/releases) ：一种跟踪项目中可交付成果的方式，可作为源，构建输出，其他元数据和与代码的发行版本相关的其他工件的快照
 *   代码所有者 ：为某些文件指定代码所有者
 *   License ：批准和拒绝项目的许可证
 *   依赖项列表 ：查看项目依赖项
@@ -57,7 +57,7 @@
 
 ## 新建项目[](#新建项目 "Permalink")
 
-了解如何在 CODEChina 中[创建一个新项目](/docs/basic/create-project.md) 。
+了解如何在 CODEChina 中[创建一个新项目](/docs/basic/create-project) 。
 
 ### Fork 项目[](#fork项目 "Permalink")
 
@@ -100,13 +100,13 @@
 
 项目设置允许您设置项目的可见性级别、访问级别，并执行诸如归档、重命名或转移项目的操作。
 
-了解更多有关[项目设置](/docs/user/project/settings.md)的文档。
+了解更多有关[项目设置](/docs/user/project/settings)的文档。
 
 ## 导入/导出项目[](#i导入导出项目 "Permalink")
 
-*   [导入项目](/docs/user/project/import.md) from:
-    *   [从Github导入](/docs/user/project/import/github.md)
-    *   [从Bitbucket导入](/docs/user/project/import/by-url.md)
+*   [导入项目](/docs/user/project/import) from:
+    *   [从Github导入](/docs/user/project/import/github)
+    *   [从Bitbucket导入](/docs/user/project/import/by-url)
 *   导出项目
 
 ## 删除项目[](#删除项目 "Permalink")
@@ -126,19 +126,19 @@
 
 ## 项目成员[](#项目成员 "Permalink")
 
-了解如何[将成员添加到您的项目中](/docs/user/project/member.md) 
+了解如何[将成员添加到您的项目中](/docs/user/project/member) 
 
 ## 退出项目[](#退出项目 "Permalink")
 
-当项目属于组织时（即项目在[组织的命名空间下](/docs/user/org.md#命名空间) ），**退出项目**将仅显示在项目的页面上。如果您选择退出项目，那么您将不再是项目成员，并且将无法继续参与项目。
+当项目属于组织时（即项目在[组织的命名空间下](/docs/user/org#命名空间) ），**退出项目**将仅显示在项目的页面上。如果您选择退出项目，那么您将不再是项目成员，并且将无法继续参与项目。
 
 ## 项目首页[](#项目首页 "Permalink")
 
 项目首页会根据项目的可见性设置和用户权限来显示不同的内容：
 
-对于公共项目以及私有项目中[有权查看该项目代码](/docs/user/permissions.md#project-members-permissions)的项目成员：
+对于公共项目以及私有项目中[有权查看该项目代码](/docs/user/permissions#project-members-permissions)的项目成员：
 
-*   显示[`README`文件或索引文件的](/docs/user/project/repo.md#repository-readme-and-index-files)内容（如果有），然后显示项目存储库中的目录列表
+*   显示[`README`文件或索引文件的](/docs/user/project/repo#repository-readme-and-index-files)内容（如果有），然后显示项目存储库中的目录列表
 *   如果项目不包含这些文件中的任何一个，则访问者将看到存储库的文件和目录列表
 
 对于没有权限查看项目代码的用户：

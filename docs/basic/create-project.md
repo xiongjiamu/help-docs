@@ -1,6 +1,6 @@
 # 新建项目[](#create-a-project "Permalink")
 
-开发中大多数工作都在一个[项目](/docs/user/project/repo.md)完成，文件和代码都保存在项目中，并且大多数功能都将在项目范围内使用。
+开发中大多数工作都在一个[项目](/docs/user/project/repo)完成，文件和代码都保存在项目中，并且大多数功能都将在项目范围内使用。
 
 ## 新建一个项目[](#create-a-project "Permalink")
 
@@ -12,7 +12,7 @@
     *   使用可用的[项目模板](#project-templates)之一创建一个项目
     *   从其他第三方导入一个项目，目前支持 github 以及 url 导入这两种方式
 
-**注意：**有关不能用作项目名称的单词列表，请参见[保留的项目和组名称](/docs/user/reserved.md) 。
+**注意：**有关不能用作项目名称的单词列表，请参见[保留的项目和组名称](/docs/user/reserved) 。
 
 ### 空项目[](#blank-projects "Permalink")
 

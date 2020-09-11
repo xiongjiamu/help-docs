@@ -6,7 +6,7 @@
 
 [![Find file button](/docs/img/file_finder_find_button_v12_10.png)](/docs/img/file_finder_find_button_v12_10.png)
 
-如果您喜欢使用快捷键，我们还支持[键盘快捷键](/docs/user/shortcutkey.md) ，您可以从项目中的*任何地方*调用它。
+如果您喜欢使用快捷键，我们还支持[键盘快捷键](/docs/user/shortcutkey) ，您可以从项目中的*任何地方*调用它。
 
 在** Issue ** ， **合并请求** ， **里程碑**甚至项目设置中，按`t`键启动文件搜索功能。
 

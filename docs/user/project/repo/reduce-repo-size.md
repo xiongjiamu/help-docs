@@ -11,13 +11,13 @@
 *   [`git filter-branch`](https://git-scm.com/docs/git-filter-branch).
 *   [BFG](https://rtyley.github.io/bfg-repo-cleaner/).
 
-**危险：**重写代码仓库历史记录是一种破坏性操作，在开始之前，请确保备份您的代码仓库。备份存储库的最佳方法是[导出项目](/docs/user/project/import.md#exporting-a-project-and-its-data) 。
+**危险：**重写代码仓库历史记录是一种破坏性操作，在开始之前，请确保备份您的代码仓库。备份存储库的最佳方法是[导出项目](/docs/user/project/import#exporting-a-project-and-its-data) 。
 
 ## 在从代码仓库历史记录中净化文件[](#purge-files-from-repository-history "Permalink")
 
 为了使克隆项目更快，建议重写分支和标签以删除不需要的文件。
 
-1.  使用受支持的程序包管理器或从源代码[安装`git filter-repo`](https://github.com/newren/git-filter-repo/blob/main/INSTALL.md)
+1.  使用受支持的程序包管理器或从源代码[安装`git filter-repo`](https://github.com/newren/git-filter-repo/blob/main/INSTALL)
 
 2.  使用`--bare`克隆代码仓库的新副本：
 
@@ -63,7 +63,7 @@
     git push origin --force --all 
     ```
 
-    [受保护的分支](/docs/user/project/protected-branch.md)将导致此操作失败。要继续的话，您必须删除分支保护，推送，然后重新启用受保护的分支。
+    [受保护的分支](/docs/user/project/protected-branch)将导致此操作失败。要继续的话，您必须删除分支保护，推送，然后重新启用受保护的分支。
 
 6.  要从标记的 Release 中删除大文件，请强制将更改推送到CODEChina上的所有标记：
 
@@ -71,7 +71,7 @@
     git push origin --force --tags 
     ```
 
-    [受保护的标签](/docs/user/project/protected-tag.md)将导致此操作失败. 要继续，您必须删除标签保护，推送，然后重新启用受保护的标签.
+    [受保护的标签](/docs/user/project/protected-tag)将导致此操作失败. 要继续，您必须删除标签保护，推送，然后重新启用受保护的标签.
 
 7.  手动执行项目整理
 
@@ -81,7 +81,7 @@
 
 要减少代码仓库的大小，必须删除 CODEChina 内部引用包含大文件的提交。在完成这些步骤之前，请[从存储库历史记录中清除文件](#purge-files-from-repository-history) .
 
-除了[分支](/docs/user/project/repo/branches.md)和标签（这是一种 Git 引用）之外，系统还会自动创建其他引用，[代码仓库清理](#repository-cleanup)可用于从 CODEChina 中删除它们.
+除了[分支](/docs/user/project/repo/branches)和标签（这是一种 Git 引用）之外，系统还会自动创建其他引用，[代码仓库清理](#repository-cleanup)可用于从 CODEChina 中删除它们.
 
 以下为内部参考文献：
 
@@ -91,9 +91,9 @@
 
 这意味着在获取时通常不包含它们，这使得获取速度更快。另外， `refs/keep-around/*`是隐藏的 refs，以防止与讨论相关的提交被删除并且根本无法被获取。但是，可以从项目导出内的 Git 捆绑包访问这些引用：
 
-1.  使用受支持的程序包管理器或从源代码[安装`git filter-repo`](https://github.com/newren/git-filter-repo/blob/main/INSTALL.md) 
+1.  使用受支持的程序包管理器或从源代码[安装`git filter-repo`](https://github.com/newren/git-filter-repo/blob/main/INSTALL) 
 
-2.  [从项目中](/docs/user/project/import.md#exporting-a-project-and-its-data)生成一个新的[导出](/docs/user/project/import.md#exporting-a-project-and-its-data)并下载
+2.  [从项目中](/docs/user/project/import#exporting-a-project-and-its-data)生成一个新的[导出](/docs/user/project/import#exporting-a-project-and-its-data)并下载
 
 3.  使用`tar`解压缩备份：
 

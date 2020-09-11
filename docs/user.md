@@ -18,7 +18,7 @@ CODEChina 是一个基于 Git 的平台，它集成了许多用于软件开发�
 
 您可以创建[项目](project)来托管代码，跟踪问题，在代码上进行协作。或者，您可以在一个项目中完成下列所有操作：
 
-*   [代码仓库](/project/repo.md) ：将[代码库](/project/repo)托管在具有版本控制的存储库中，并作为完全集成平台的一部分
+*   [代码仓库](/project/repo) ：将[代码库](/project/repo)托管在具有版本控制的存储库中，并作为完全集成平台的一部分
 *   [Issues](/project/issues) ：探索 Issue
 *   [合并请求](/project/merge_requests) ：在代码，评论，每个分支的实时预览更改方面进行协作，并通过合并请求来批准请求
 *   [里程碑](/project/milestone) ：在设置的里程碑日期前处理多个Issue及合并请求
@@ -43,7 +43,7 @@ CODEChina 是一个基于 Git 的平台，它集成了许多用于软件开发�
 
 ### Markdown[](#markdown "Permalink")
 
-您可以在[markdown](/docs/user/markdown.md)中了解如何在主题、注释、Issue 及合并请求以及所有支持markdonw的其他地方来使用markdown填写你的内容。
+您可以在[markdown](/docs/user/markdown)中了解如何在主题、注释、Issue 及合并请求以及所有支持markdonw的其他地方来使用markdown填写你的内容。
 
 ## 待办事项[](#todo "Permalink")
 

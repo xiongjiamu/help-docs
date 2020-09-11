@@ -173,7 +173,7 @@ git config --global commit.gpgsign true
 
 ## 验证提交[](#verifying-commits "Permalink")
 
-1.  在项目或[合并请求](/docs/user/project/merge-request.md)中，切换到" **提交"**选项卡，签名的提交将显示包含" Verified"或" Unverified"的徽章，具体取决于 GPG 签名的验证状态
+1.  在项目或[合并请求](/docs/user/project/merge-request)中，切换到" **提交"**选项卡，签名的提交将显示包含" Verified"或" Unverified"的徽章，具体取决于 GPG 签名的验证状态
 
     [![Signed and unsigned commits](/docs/img/project_signed_and_unsigned_commits.png)](/docs/img/project_signed_and_unsigned_commits.png)
 
@@ -203,4 +203,4 @@ git config --global commit.gpgsign true
 
 ## 拒绝未签名的提交[](#rejecting-commits-that-are-not-signed-premium "Permalink")
 
-您可以将您的项目配置为拒绝不是通过[推送规则进行](/docs/user/project/push-rules.md) GPG 签名的提交
+您可以将您的项目配置为拒绝不是通过[推送规则进行](/docs/user/project/push-rules) GPG 签名的提交

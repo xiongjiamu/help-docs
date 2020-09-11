@@ -19,7 +19,7 @@
 *   转到**项目> 项目简介**，在下方有发行版本信息
 *   在项目的概述页面上，如果存在至少一个版本，请单击版本数
     *   在公共项目上，此数字对所有用户可见
-    *   在私有项目上，具有 Reporter [权限](/docs/user/permissions.md)或更高权限的用户可以看到此数字
+    *   在私有项目上，具有 Reporter [权限](/docs/user/permissions)或更高权限的用户可以看到此数字
 
 ## 创建 Release[](#create-a-release "Permalink")
 
@@ -116,7 +116,7 @@
 
 每个版本都有说明，您可以添加任何您喜欢的文本，但是我们建议您添加一个变更日志来描述发行版本的内容。这可以帮助用户快速扫描您发布的每个版本之间的差异。
 
-**注意：** [Git 的标记消息](https://git-scm.com/book/en/v2/Git-Basics-Tagging)和发行说明描述无关；说明支持[Markdown](/docs/user/markdown.md) 。
+**注意：** [Git 的标记消息](https://git-scm.com/book/en/v2/Git-Basics-Tagging)和发行说明描述无关；说明支持[Markdown](/docs/user/markdown) 。
 
 ### 发布资产[](#release-assets "Permalink")
 

@@ -52,7 +52,7 @@
 
 ## 自动补全字符[](#autocomplete-characters "Permalink")
 
-许多快速操作都需要一个参数，例如：用户名，里程碑和标签。与从列表中选择项目相比， [自动完成字符](/docs/user/project/autofill.md)可以使输入参数更加容易。
+许多快速操作都需要一个参数，例如：用户名，里程碑和标签。与从列表中选择项目相比， [自动完成字符](/docs/user/project/autofill)可以使输入参数更加容易。
 
 ## 快速操作参数[](#quick-actions-parameters "Permalink")
 

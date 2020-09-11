@@ -54,24 +54,24 @@ Issue 包含各种内容和元数据，从而在使用方式上具有很大的�
 
 针对问题的关键操作包括：
 
-*   [新建 Issue](/docs/user/project/issues/manage.md#create-a-new-issue)
-*   [移动 Issue](/docs/user/project/issues/manage.md#moving-issues)
-*   [关闭 Issue](/docs/user/project/issues/manage.md#closing-issues)
-*   [删除 Issue](/docs/user/project/issues/manage.md#deleting-issues)
+*   [新建 Issue](/docs/user/project/issues/manage#create-a-new-issue)
+*   [移动 Issue](/docs/user/project/issues/manage#moving-issues)
+*   [关闭 Issue](/docs/user/project/issues/manage#closing-issues)
+*   [删除 Issue](/docs/user/project/issues/manage#deleting-issues)
 
 ### Issue 详情页[](#issue-page "Permalink")
 
-在 Issue 的详情页面上，您可以查看 Issue 的所有方面，如果有必要的[权限](/docs/user/permissions.md) ，可以对其进行修改。
+在 Issue 的详情页面上，您可以查看 Issue 的所有方面，如果有必要的[权限](/docs/user/permissions) ，可以对其进行修改。
 
 ### Issue 列表[](#issues-list "Permalink")
 
-在" Issue 列表"上，可以查看当前项目中的所有问题。使用[搜索查询](/docs/user/search.md#filtering-issue-and-merge-request-lists)过滤 Issue 列表，包括特定的元数据，例如标签，指派人，状态等。从此视图，您还可以对显示的 Issue [进行批量](/docs/user/project/bulk-edit.md)更改。
+在" Issue 列表"上，可以查看当前项目中的所有问题。使用[搜索查询](/docs/user/search#filtering-issue-and-merge-request-lists)过滤 Issue 列表，包括特定的元数据，例如标签，指派人，状态等。从此视图，您还可以对显示的 Issue [进行批量](/docs/user/project/bulk-edit)更改。
 
-您可以通过多种方式对问题列表进行排序，例如，通过问题创建日期，里程碑到期日期. 有关更多信息，请参见[排序和排序 Issue 列表](/docs/user/project/issues/sort.md)页面.
+您可以通过多种方式对问题列表进行排序，例如，通过问题创建日期，里程碑到期日期. 有关更多信息，请参见[排序和排序 Issue 列表](/docs/user/project/issues/sort)页面.
 
 ### 看板[](#issue-boards "Permalink")
 
-[看板](/docs/user/project/kanban.md)中的其栏目根据标签来显示 Issue，它提供了可高度定制的工作流来管理问题的灵活性。
+[看板](/docs/user/project/kanban)中的其栏目根据标签来显示 Issue，它提供了可高度定制的工作流来管理问题的灵活性。
 
 您可以在栏中重新排序 Issue，如果将 Issue 拖到另一列，则其关联的标签将更改以匹配新列的标签，整个看板可以被筛选为仅包括某个里程碑或总体标签中的问题。
 
@@ -81,7 +81,7 @@ Issue 包含各种内容和元数据，从而在使用方式上具有很大的�
 
 ### 关联 Issue[](#crosslinking-issues "Permalink")
 
-您可以通过引用另一个 Issue 来[关联 Issue](/docs/user/project/issues/crosslinking.md) ，也可以通过包括其 URL 或 ID 来合并请求。参考的 Issue 在活动流中显示有关参考的消息，并带有指向其他 Issue 或合并请求的链接。
+您可以通过引用另一个 Issue 来[关联 Issue](/docs/user/project/issues/crosslinking) ，也可以通过包括其 URL 或 ID 来合并请求。参考的 Issue 在活动流中显示有关参考的消息，并带有指向其他 Issue 或合并请求的链接。
 
 ### 相似 Issue[](#similar-issues "Permalink")
 
@@ -91,6 +91,6 @@ Issue 包含各种内容和元数据，从而在使用方式上具有很大的�
 
 ## 其他 Issue 操作[](#other-issue-actions "Permalink")
 
-*   [从模板创建 Issue](/docs/user/project/description-template.md#using-the-templates)
-*   [设置截止日期](/docs/user/project/issues/due-date.md)
-*   [批量编辑问题](/docs/user/project/bulk-edit.md)——从 Issue 列表中选择多个 Issue，以批量更改其状态，指派人，里程碑或标签。
+*   [从模板创建 Issue](/docs/user/project/description-template#using-the-templates)
+*   [设置截止日期](/docs/user/project/issues/due-date)
+*   [批量编辑问题](/docs/user/project/bulk-edit)——从 Issue 列表中选择多个 Issue，以批量更改其状态，指派人，里程碑或标签。

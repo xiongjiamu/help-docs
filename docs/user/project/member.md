@@ -2,7 +2,7 @@
 
 您可以在所有项目中管理组和用户及其访问级别，您还可以个性化为每个项目赋予每个用户的访问级别。
 
-您应该具有 Maintainer 或 Owner[权限](/docs/user/permissions.md)，才能将新用户添加或导入到项目中。
+您应该具有 Maintainer 或 Owner[权限](/docs/user/permissions)，才能将新用户添加或导入到项目中。
 
 要查看，编辑，添加和删除项目的成员，请转到项目的**项目设置>项目成员设置** 。
 
@@ -32,7 +32,7 @@
 
 [![Search for people](/docs/img/add_user_search_people.png)](/docs/img/add_user_search_people.png)
 
-选择用户以及您要赋予该用户的[权限级别](/docs/user/permissions.md)，您可以选择多个用户。
+选择用户以及您要赋予该用户的[权限级别](/docs/user/permissions)，您可以选择多个用户。
 
 [![Give user permissions](/docs/img/add_user_give_permissions.png)](/docs/img/add_user_give_permissions.png)
 
@@ -72,11 +72,11 @@ CODEChina 用户可以请求成为项目成员，进入到您要加入的项目�
 
 ## 与组共享项目[](#share-project-with-group "Permalink")
 
-此外，您可以[与整个组共享一个项目](/docs/user/project/member/share.md)，而不需要一个一个地添加用户。
+此外，您可以[与整个组共享一个项目](/docs/user/project/member/share)，而不需要一个一个地添加用户。
 
 ## 从项目中删除成员[](#remove-a-member-from-the-project "Permalink")
 
-只有[Owner](/docs/user/permissions.md#group-members-permissions)权限的[用户](/docs/user/permissions.md#group-members-permissions)才能管理项目成员。
+只有[Owner](/docs/user/permissions#group-members-permissions)权限的[用户](/docs/user/permissions#group-members-permissions)才能管理项目成员。
 
 如果要删除的成员在项目中具有直接成员资格，则可以从项目中删除用户；如果成员资格是从父组继承的，则该成员只能从父组本身中删除。
 

@@ -20,10 +20,10 @@
 
 ## 与 git 协作[](#associated-git-command "Permalink")
 
-在`git`的命令行中，文件的`blame`则等效命令为`git blame <filename>`。例如，如果你想找到`README.md`在本地目录中的文件`blame`有关信息，可以运行以下命令：
+在`git`的命令行中，文件的`blame`则等效命令为`git blame <filename>`。例如，如果你想找到`README`在本地目录中的文件`blame`有关信息，可以运行以下命令：
 
 ```markdown
-git blame README.md 
+git blame README 
 ```
 
 您将看到类似于以下内容的输出，其中包括 UTC 格式的提交时间：

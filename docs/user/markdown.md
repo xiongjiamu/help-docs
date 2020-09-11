@@ -6,7 +6,7 @@
 *   Issues
 *   合并请求
 *   里程碑
-*   代码段（代码段必须以`.md`扩展名命名）
+*   代码段（代码段必须以``扩展名命名）
 *   Wiki
 *   仓库中的 Markdown 文档
 *   Epics
@@ -17,7 +17,7 @@
 
 ### 从 Redcarpet 过渡到 CommonMark[](#transition-from-redcarpet-to-commonmark "Permalink")
 
-从 11.1 开始，GitLab 使用[CommonMark Ruby 库](https://github.com/gjtorikian/commonmarker)对[Markit](https://github.com/gjtorikian/commonmarker)处理 GitLab 系统中的所有新问题，合并请求，注释和其他 Markdown 内容. 从 11.3 开始，存储库中的 Wiki 页面和 Markdown 文件（ `*.md` ）也将通过 CommonMark 处理. 从 11.8 开始， [Redcarpet Ruby 库](https://github.com/vmg/redcarpet)已被删除，所有问题和注释，包括 11.1 之前的问题和注释，现在都可以使用[CommonMark Ruby Library 处理](https://github.com/gjtorikian/commonmarker) .
+从 11.1 开始，GitLab 使用[CommonMark Ruby 库](https://github.com/gjtorikian/commonmarker)对[Markit](https://github.com/gjtorikian/commonmarker)处理 GitLab 系统中的所有新问题，合并请求，注释和其他 Markdown 内容. 从 11.3 开始，存储库中的 Wiki 页面和 Markdown 文件（ `*` ）也将通过 CommonMark 处理. 从 11.8 开始， [Redcarpet Ruby 库](https://github.com/vmg/redcarpet)已被删除，所有问题和注释，包括 11.1 之前的问题和注释，现在都可以使用[CommonMark Ruby Library 处理](https://github.com/gjtorikian/commonmarker) .
 
 该文档网站的[Markdown 引擎](https://gitlab.com/gitlab-org/gitlab-docs/-/merge_requests/108)已于 2018 年 10 月[从 Redcarpet 迁移到 Kramdown](https://gitlab.com/gitlab-org/gitlab-docs/-/merge_requests/108) .
 
@@ -80,7 +80,7 @@ GitLab 充分利用了标准（CommonMark）格式，但还包括对 GitLab 用�
 
 ### Colors[](#colors "Permalink")
 
-> 如果未正确呈现，请[在 GitLab 本身中查看它](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/user/markdown.md#colors) .
+> 如果未正确呈现，请[在 GitLab 本身中查看它](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/user/markdown#colors) .
 
 可以使用颜色标识呈现以 HEX，RGB 或 HSL 格式书写的颜色。
 
@@ -179,7 +179,7 @@ end
 ```
 ### Emoji[](#emoji "Permalink")
 
-> 如果未正确呈现，请[在 GitLab 本身中查看它](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/user/markdown.md#emoji) .
+> 如果未正确呈现，请[在 GitLab 本身中查看它](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/user/markdown#emoji) .
 
 ```
 Sometimes you want to :monkey: around a bit and add some :star2: to your :speech_balloon:. Well we have a gift for you:
@@ -201,7 +201,7 @@ Consult the [Emoji Cheat Sheet](https://www.emojicopy.com) for a list of all sup
 
 Front matter 是 Markdown 文档开头，内容之前的元数据。 静态站点生成器（例如[Jekyll](https://jekyllrb.com/docs/front-matter/) ， [Hugo](https://s0gohugo0io.icopy.site/content-management/front-matter/)和许多其他应用程序）可以使用此数据。
 
-当您查看由 GitLab 渲染的 Markdown 文件时，任何 Front matter 都会按原样显示在文档顶部的框中，位于渲染的 HTML 内容之前。要查看示例，可以在[GitLab 文档文件](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/README.md)的源版本和渲染版本之间切换。
+当您查看由 GitLab 渲染的 Markdown 文件时，任何 Front matter 都会按原样显示在文档顶部的框中，位于渲染的 HTML 内容之前。要查看示例，可以在[GitLab 文档文件](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/README)的源版本和渲染版本之间切换。
 
 在 GitLab 中，仅在 Markdown 文件和 Wiki 页面中支持使用 Front matter ，而在其他支持 Markdown 格式的其他地方使用 Front matter 将无法生效。它必须在文档的最顶部，并且必须在定界符之间，如下所述：
 
@@ -253,7 +253,7 @@ $example = array(
 
 ### 行内 diff[](#inline-diff "Permalink")
 
-> 如果未正确呈现，请[在 GitLab 本身中查看它](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/user/markdown.md#inline-diff) 。
+> 如果未正确呈现，请[在 GitLab 本身中查看它](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/user/markdown#inline-diff) 。
 
 使用内联 diff 标签，您可以显示`{+ additions +}`或`[- deletions -]` 。
 
@@ -296,7 +296,7 @@ $example = array(
 
 ### 数学公式[](#math "Permalink")
 
-> 如果未正确呈现，请[在 GitLab 本身中查看它](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/user/markdown.md#math) 。
+> 如果未正确呈现，请[在 GitLab 本身中查看它](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/user/markdown#math) 。
 
 可以使用[KaTeX](https://github.com/KaTeX/KaTeX)渲染用 LaTeX 语法编写的数学运算。
 
@@ -360,7 +360,7 @@ GFM 将识别以下内容：
 
 ### 任务列表[](#task-lists "Permalink")
 
-> 如果未正确呈现，请[在 GitLab 本身中查看它](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/user/markdown.md#task-lists)。
+> 如果未正确呈现，请[在 GitLab 本身中查看它](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/user/markdown#task-lists)。
 
 您可以在支持 Markdown 的任何位置添加任务列表，如果它们处于 Issue、合并请求或评论中，可以通过"单击"切换状态。但在其他地方，您必须手动编辑 Markdown 以通过在方括号内添加或删除`x`来更改状态。
 
@@ -419,10 +419,10 @@ Second section content.
 
 *相对于当前页面* ，带有文件扩展名的链接指向该文件。
 
-如果下面的代码段放在`<your_wiki>/documentation/related`的页面上，它将链接到`<your_wiki>/documentation/file.md` ：
+如果下面的代码段放在`<your_wiki>/documentation/related`的页面上，它将链接到`<your_wiki>/documentation/file` ：
 
 ```
-[Link to File](file.md) 
+[Link to File](file) 
 ```
 
 #### Wiki - hierarchical link[](#wiki---hierarchical-link "Permalink")
@@ -441,16 +441,16 @@ Second section content.
 [Link to Related Page](../main) 
 ```
 
-如果此代码段放在`<your_wiki>/documentation/main`的页面上，它将链接到`<your_wiki>/documentation/related.md` ：
+如果此代码段放在`<your_wiki>/documentation/main`的页面上，它将链接到`<your_wiki>/documentation/related` ：
 
 ```
-[Link to Related Page](./related.md) 
+[Link to Related Page](./related) 
 ```
 
-如果此代码段放在`<your_wiki>/documentation/related/content`的页面上，它将链接到`<your_wiki>/documentation/main.md` ：
+如果此代码段放在`<your_wiki>/documentation/related/content`的页面上，它将链接到`<your_wiki>/documentation/main` ：
 
 ```
-[Link to Related Page](../main.md) 
+[Link to Related Page](../main) 
 ```
 
 #### Wiki - root link[](#wiki---root-link "Permalink")
@@ -463,10 +463,10 @@ Second section content.
 [Link to Related Page](/documentation) 
 ```
 
-该代码段链接到`<wiki_root>/miscellaneous.md` ：
+该代码段链接到`<wiki_root>/miscellaneous` ：
 
 ```
-[Link to Related Page](/miscellaneous.md) 
+[Link to Related Page](/miscellaneous) 
 ```
 
 ### Embedding metrics in GitLab Flavored Markdown[](#embedding-metrics-in-gitlab-flavored-markdown "Permalink")
@@ -490,7 +490,7 @@ Quote break.
 
 #### 多个引用块[](#multiline-blockquote "Permalink")
 
-> 如果未正确呈现，请[在 GitLab 本身中查看它](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/user/markdown.md#multiline-blockquote) 。
+> 如果未正确呈现，请[在 GitLab 本身中查看它](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/user/markdown#multiline-blockquote) 。
 
 GFM 还支持`>>>`围起来的多行块引用，从而扩展了标准的 Markdown 标准：
 
@@ -553,7 +553,7 @@ Tildes are OK too.
 
 #### 代码块颜色及语法高亮[](#colored-code-and-syntax-highlighting "Permalink")
 
-> 如果未正确呈现，请[在 GitLab 本身中查看它](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/user/markdown.md#colored-code-and-syntax-highlighting) 。
+> 如果未正确呈现，请[在 GitLab 本身中查看它](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/user/markdown#colored-code-and-syntax-highlighting) 。
 
 GitLab 使用[Rouge Ruby 库](http://rouge.jneen.net/)在代码块中突出显示了更加丰富多彩的语法. 有关支持的语言的列表，请访问[Rouge 项目 Wiki](https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers) . 语法突出显示仅在代码块中受支持，因此在内联时无法突出显示代码.
 
@@ -624,7 +624,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 #### Multiple underscores in words and mid-word emphasis[](#multiple-underscores-in-words-and-mid-word-emphasis "Permalink")
 
-> 如果未正确呈现，请[在 GitLab 本身中查看它](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/user/markdown.md#multiple-underscores-in-words)。
+> 如果未正确呈现，请[在 GitLab 本身中查看它](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/user/markdown#multiple-underscores-in-words)。
 
 仅将单词的*一部分*斜体化通常是没有用的，尤其是当您要处理经常带有多个下划线的代码和名称时。 结果，GFM 通过忽略单词中的多个下划线来扩展了标准的 Markdown 标准，以更好地呈现讨论代码的 Markdown 文档：
 
@@ -741,7 +741,7 @@ Reference-style (hover to see title text):
 
 #### 视频[](#videos "Permalink")
 
-> 如果未正确呈现，请[在 GitLab 本身中查看它](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/user/markdown.md#videos) 。
+> 如果未正确呈现，请[在 GitLab 本身中查看它](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/user/markdown#videos) 。
 
 链接到带有视频扩展名的文件的图像标签会自动转换为视频播放器. 有效的视频扩展名是`.mp4` ， `.m4v` ， `.mov` ， `.webm`和`.ogv` ：
 
@@ -752,7 +752,7 @@ Here's a sample video:
 
 #### 音频[](#audio "Permalink")
 
-> 如果未正确呈现，请[在 GitLab 本身中查看它](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/user/markdown.md#audio) 。
+> 如果未正确呈现，请[在 GitLab 本身中查看它](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/user/markdown#audio) 。
 
 与视频类似，带有音频扩展名的文件的链接标签会自动转换为音频播放器，有效的音频扩展名是`.mp3` ， `.oga` ， `.ogg` ， `.spx`和`.wav` ：
 
@@ -763,7 +763,7 @@ Here's a sample audio clip:
 
 ### 行内 HTML[](#inline-html "Permalink")
 
-> 要在第二个示例中[查看](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/user/markdown.md#inline-html)在 HTML 中呈现的 Markdown，请[在 GitLab 本身中查看它](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/user/markdown.md#inline-html) 。
+> 要在第二个示例中[查看](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/user/markdown#inline-html)在 HTML 中呈现的 Markdown，请[在 GitLab 本身中查看它](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/user/markdown#inline-html) 。
 
 您还可以在 Markdown 中使用原始 HTML，通常效果都很好。
 
@@ -793,7 +793,7 @@ Here's a sample audio clip:
 
 #### Details and summary[](#details-and-summary "Permalink")
 
-> 要在第二个示例中[查看](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/user/markdown.md#details-and-summary)在 HTML 中呈现的 Markdown，请[在 GitLab 本身中查看它](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/user/markdown.md#details-and-summary) 。
+> 要在第二个示例中[查看](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/user/markdown#details-and-summary)在 HTML 中呈现的 Markdown，请[在 GitLab 本身中查看它](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/user/markdown#details-and-summary) 。
 
 可以使用 HTML 的[`<details>`](https://s0developer0mozilla0org.icopy.site/en-US/docs/Web/HTML/Element/details)和[`<summary>`](https://s0developer0mozilla0org.icopy.site/en-US/docs/Web/HTML/Element/summary)标记折叠内容. 这对于折叠长日志特别有用，因为它们占用更少的屏幕空间。
 
@@ -865,13 +865,13 @@ A new line due to the previous backslash.
 
 ```
 - This is an [inline-style link](https://www.google.com)
-- This is a [link to a repository file in the same directory](index.md)
-- This is a [relative link to a readme one directory higher](../README.md)
+- This is a [link to a repository file in the same directory](index)
+- This is a [relative link to a readme one directory higher](../README)
 - This is a [link that also has title text](https://www.google.com "This link takes you to Google!")
 
 Using header ID anchors:
 
-- This links to [a section on a different Markdown page, using a "#" and the header ID](index.md#overview)
+- This links to [a section on a different Markdown page, using a "#" and the header ID](index#overview)
 - This links to [a different section on the same page, using a "#" and the header ID](#header-ids-and-links)
 
 Using references:
@@ -1010,7 +1010,7 @@ while the equation for the theory of relativity is E = mc<sup>2</sup>.
 
 （另外，你可以通过添加冒号选择文本列中的对齐`:`第二行中的"破折号"线条的两侧）， 这将影响列中的每个单元格。
 
-**注意：** [在 GitLab 本身中](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/user/markdown.md#tables) ，标题始终在 Chrome 和 Firefox 中左对齐，并在 Safari 中居中。
+**注意：** [在 GitLab 本身中](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/user/markdown#tables) ，标题始终在 Chrome 和 Firefox 中左对齐，并在 Safari 中居中。
 
 ```
 | Left Aligned | Centered | Right Aligned | Left Aligned | Centered | Right Aligned |

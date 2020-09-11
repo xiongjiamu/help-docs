@@ -8,13 +8,13 @@
 *   留言
 *   克隆或下载项目代码
 
-当成员离开团队的项目时，所有分配给他的" [Issue"](/docs/user/project/issues.md)及" [合并请求"](/docs/user/project/merge-request.md)将自动取消分配。
+当成员离开团队的项目时，所有分配给他的" [Issue"](/docs/user/project/issues)及" [合并请求"](/docs/user/project/merge-request)将自动取消分配。
 
-要添加或导入用户，可以遵循[项目成员文档](/docs/user/project/member.md)。
+要添加或导入用户，可以遵循[项目成员文档](/docs/user/project/member)。
 
 ## 项目成员权限[](#project-members-permissions "Permalink")
 
-虽然 Maintainer 是项目级别的最高角色，但是某些操作只能由拥有命名空间所有权限的用户或组的 Owner执行。 有关更多信息，请参阅[项目成员文档](/docs/user/project/member.md) 。
+虽然 Maintainer 是项目级别的最高角色，但是某些操作只能由拥有命名空间所有权限的用户或组的 Owner执行。 有关更多信息，请参阅[项目成员文档](/docs/user/project/member) 。
 
 下表描述了项目中的各种用户权限级别：
 
@@ -59,7 +59,7 @@
 | Pull packages |   | ✓ | ✓ | ✓ | ✓ |
 | Publish packages |   |   | ✓ | ✓ | ✓ |
 | Upload Design Management files |   |   | ✓ | ✓ | ✓ |
-| Create/edit/delete [Releases](/docs/user/project/releases.md) |   |   | ✓ | ✓ | ✓ |
+| Create/edit/delete [Releases](/docs/user/project/releases) |   |   | ✓ | ✓ | ✓ |
 | 创建新分支 |   |   | ✓ | ✓ | ✓ |
 | 推送到不受保护的分支 |   |   | ✓ | ✓ | ✓ |
 | 强制推送到不受保护的分支 |   |   | ✓ | ✓ | ✓ |
@@ -131,9 +131,9 @@
 2.  Guest 用户只能查看他们自己创建的机密问题
 3.  不允许 Guest，Reporter，Developer，Maintainer 或 Owner 使用，请参阅受保护的分支
 4.  如果分支收到保护 ，则取决于授予开发人员和维护人员的权限
-5.  Guest 用户可以访问 项目的 [**Release**](/docs/user/project/releases.md)来下载资源，但不能下载源代码，也不能查看代码仓库信息（例如标签和提交）
+5.  Guest 用户可以访问 项目的 [**Release**](/docs/user/project/releases)来下载资源，但不能下载源代码，也不能查看代码仓库信息（例如标签和提交）
 6.  操作仅限于用户拥有（引用）的记录​​
-7.  启用" [共享组锁定"后](/docs/user/org.md#share-with-group-lock) ，该项目将无法与其他组共享，它不影响具有组共享的组
+7.  启用" [共享组锁定"后](/docs/user/org#share-with-group-lock) ，该项目将无法与其他组共享，它不影响具有组共享的组
 
 ## 项目功能权限[](#project-features-permissions "Permalink")
 
@@ -156,7 +156,7 @@
 
 ### 机密 Issue 权限[](#confidential-issues-permissions "Permalink")
 
-报告者和更高的权限级别以及创建机密问题的来宾用户都可以访问机密问题. 要了解更多信息，请通读有关[权限和访问机密问题](/docs/user/project/issues/confidential.md#permissions-and-access-to-confidential-issues)的文档.
+报告者和更高的权限级别以及创建机密问题的来宾用户都可以访问机密问题. 要了解更多信息，请通读有关[权限和访问机密问题](/docs/user/project/issues/confidential#permissions-and-access-to-confidential-issues)的文档.
 
 ## 组织成员权限[](#group-members-permissions "Permalink")
 

@@ -28,9 +28,9 @@
 2.  在出现的下拉菜单中，选择您要过滤的属性：
     *   作者
     *   指派人
-    *   [里程碑](/docs/user/project/milestone.md)
+    *   [里程碑](/docs/user/project/milestone)
     *   Release
-    *   [标签](/docs/user/project/label.md)
+    *   [标签](/docs/user/project/label)
     *   我的反应
     *   机密
     *   Epic
@@ -98,13 +98,13 @@
 
 ## 待办事项[](#to-do-list "Permalink")
 
-可以通过"待办事项"和"完成"来搜索您的[待办事项列表](/docs/user/todo.md) 。您可以按项目，作者，类型和操作[过滤](/docs/user/todo.md#filtering-your-to-do-list)它们。另外，您可以按[**标签优先级**](/docs/user/project/label.md#label-priority) ， **最后创建**和**最早创建**对其进行排序。
+可以通过"待办事项"和"完成"来搜索您的[待办事项列表](/docs/user/todo) 。您可以按项目，作者，类型和操作[过滤](/docs/user/todo#filtering-your-to-do-list)它们。另外，您可以按[**标签优先级**](/docs/user/project/label#label-priority) ， **最后创建**和**最早创建**对其进行排序。
 
 ## 项目[](#projects "Permalink")
 
 您可以从导航中项目菜单栏去搜索和发现项目，方法是依次点击**项目>浏览项目** ， 在" **按名称过滤** "字段上，输入要查找的项目或组织名称即可。
 
-你也可以去找你的项目[ Star ](/docs/basic/create-project.md#star-a-project) （ **加星标的项目** ），并**探索**所有的公共和内部项目 GitLab.com 可用，从中你可以通过可视性筛选，通过**趋势** ，最好与**大多数明星**评分，或他们的**全部** .
+你也可以去找你的项目[ Star ](/docs/basic/create-project#star-a-project) （ **加星标的项目** ），并**探索**所有的公共和内部项目 GitLab.com 可用，从中你可以通过可视性筛选，通过**趋势** ，最好与**大多数明星**评分，或他们的**全部** .
 
 您还可以按**名称** ， **最后创建** ， **最旧创建** ， **最后更新** ， **最新更新** ， **所有者**对搜索结果中的项目进行排序，并选择隐藏或显示**已归档的项目** 。
 
@@ -118,7 +118,7 @@
 
 ## 看板[](#issue-boards "Permalink")
 
-在[看板](/docs/user/project/kanban.md) 中，您可以按**作者** ， **指派人** ， **里程碑**和**标签**过滤 Issue。您还可以从键入时加载的字段中**按名称过滤** 。
+在[看板](/docs/user/project/kanban) 中，您可以按**作者** ， **指派人** ， **里程碑**和**标签**过滤 Issue。您还可以从键入时加载的字段中**按名称过滤** 。
 
 当您要添加**Issue**到看板中以便在看板中搜索时，请点击屏幕右上角的**添加 Issue**按钮，除了按**名称**过滤它们之外，您还可以从中找到一个模式窗口**作者** ， **受让人** ， **里程碑**和**标签** ，选择多个问题以添加到您选择的列表中。
 

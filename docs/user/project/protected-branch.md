@@ -1,6 +1,6 @@
 # 保护分支[](#protected-branch "Permalink")
 
-[权限](/docs/user/permissions.md)基本上是围绕对代码仓库和分支具有读或写权限的想法定义的，为了对某些分支机加进一步的限制，可以对其进行保护。
+[权限](/docs/user/permissions)基本上是围绕对代码仓库和分支具有读或写权限的想法定义的，为了对某些分支机加进一步的限制，可以对其进行保护。
 
 ## 概览[](#overview "Permalink")
 
@@ -48,7 +48,7 @@
 
 ## 新建保护分支[](#creating-a-protected-branch "Permalink")
  
-当受保护的分支或通配符受保护的分支设置为" [**不允许任何人** **推送"时**](#using-the-allowed-to-merge-and-allowed-to-push-settings) ，只要允许 developer（和具有较高[权限级别的](/docs/user/permissions.md)用户）[**合并**](#using-the-allowed-to-merge-and-allowed-to-push-settings) ，就可以创建新的受保护分支。
+当受保护的分支或通配符受保护的分支设置为" [**不允许任何人** **推送"时**](#using-the-allowed-to-merge-and-allowed-to-push-settings) ，只要允许 developer（和具有较高[权限级别的](/docs/user/permissions)用户）[**合并**](#using-the-allowed-to-merge-and-allowed-to-push-settings) ，就可以创建新的受保护分支。
 
 可以通过用户界面创建新分支：
 
@@ -58,7 +58,7 @@
 
 ## 删除保护分支[](#deleting-a-protected-branch "Permalink")
 
-有时可能需要删除或清理受保护的分支，具有[ maintainer ](/docs/user/permissions.md)并具有[ maintainer ](/docs/user/permissions.md)用户可以通过 Web 界面手动删除受保护的分支：
+有时可能需要删除或清理受保护的分支，具有[ maintainer ](/docs/user/permissions)并具有[ maintainer ](/docs/user/permissions)用户可以通过 Web 界面手动删除受保护的分支：
 
 1.  打开**代码>分支**
 2.  单击您要删除的分支旁边的删除图标

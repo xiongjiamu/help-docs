@@ -4,11 +4,11 @@
 
 随着Issue、合并请求和Epic数量的增长，跟踪这些项目将变得越来越困难，尤其是随着您的组织从只有几个人发展到成百上千人后。这里就出现了标记，它们可以帮助您组织和标记工作，以便您可以跟踪和找到您感兴趣的工作项。
 
-标记是[看板](/docs/user/project/kanban.md)的关键部分，通过使用标记，您可以：
+标记是[看板](/docs/user/project/kanban)的关键部分，通过使用标记，您可以：
 
 *   使用颜色和描述性标题（例如`bug` ， `feature request`或`docs`对 Epic，Issue 及合并请求进行分类
 *   动态过滤和管理 Epic、 Issue 及合并请求
-*   [搜索 Issue 列表、合并请求和史诗](/docs/user/search.md#issues-and-merge-requests)以及[看板](/docs/user/search.md#issue-boards) 
+*   [搜索 Issue 列表、合并请求和史诗](/docs/user/search#issues-and-merge-requests)以及[看板](/docs/user/search#issue-boards) 
 
 ## 项目标记和组织标记[](#project-labels-and-group-labels "Permalink")
 
@@ -29,7 +29,7 @@
     *   通过输入搜索查询并单击搜索来查找标记，然后点击它们，您可以反复搜索并添加更多标记
 2.  单击**X**或标记部分之外的任何位置，然后将应用标记
 
-您也可以使用[`/assign @username`快速操作](/docs/user/project/quick-actions.md)来分配标记。
+您也可以使用[`/assign @username`快速操作](/docs/user/project/quick-actions)来分配标记。
 
 ## Label management[](#label-management "Permalink")
 
@@ -119,7 +119,7 @@
 
 如果您按`Priority`排序，则将使用以下排序顺序：
 
-1.  具有里程碑的截止日期的项目，最早分配的[里程碑](/docs/user/project/milestone.md)在此列出
+1.  具有里程碑的截止日期的项目，最早分配的[里程碑](/docs/user/project/milestone)在此列出
 2.  具有里程碑的项目，没有截止日期
 3.  具有较高优先级标记的项目
 4.  没有优先标记的项目

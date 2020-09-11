@@ -72,7 +72,7 @@ Web IDE 当前支持以下`.editorconfig`设置：
 
 ## 编辑Markdown[](#markdown-editing "Permalink")
 
-在 Web IDE 中编辑 Markdown 文件时，可以通过单击文件编辑器上方的" **预览 Markdown"**选项卡来预览更改. Markdown 预览支持[GFM](/docs/user/markdown.md#gitlab-flavored-markdown-gfm)。
+在 Web IDE 中编辑 Markdown 文件时，可以通过单击文件编辑器上方的" **预览 Markdown"**选项卡来预览更改. Markdown 预览支持[GFM](/docs/user/markdown#gitlab-flavored-markdown-gfm)。
 
 您还可以通过将任何本地图像直接粘贴到 Markdown 文件中来上传它们，该图像将上传到同一目录，默认情况下命名为`image.png` 。 如果已经存在相同名称的另一个文件，则将数字后缀自动添加到文件名。
 

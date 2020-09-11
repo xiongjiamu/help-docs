@@ -22,7 +22,7 @@ CODEChina 中的里程碑是一种跟踪 Issue 及合并请求并在一定时期
 2.  将里程碑标题设置为您的发行版，例如`Version 9.4` 
 3.  通过关联问题右侧的期望里程碑，将问题添加到您的发行中
 
-此外，您可以将里程碑与 CODEChina 的[Releases 功能](/docs/user/project/releases.md#associate-milestones-with-a-release)集成.
+此外，您可以将里程碑与 CODEChina 的[Releases 功能](/docs/user/project/releases#associate-milestones-with-a-release)集成.
 
 ## 项目里程碑和组织里程碑[](#project-milestones-and-group-milestones "Permalink")
 
@@ -32,7 +32,7 @@ CODEChina 中的里程碑是一种跟踪 Issue 及合并请求并在一定时期
 
 ## 新建里程碑[](#creating-milestones "Permalink")
 
-**注意：**创建里程碑需要[ Developer 或更高](/docs/user/permissions.md)级别的权限。
+**注意：**创建里程碑需要[ Developer 或更高](/docs/user/permissions)级别的权限。
 
 ### 新建项目里程碑[](#new-project-milestone "Permalink")
 
@@ -54,7 +54,7 @@ CODEChina 中的里程碑是一种跟踪 Issue 及合并请求并在一定时期
 
 ## 编辑里程碑[](#editing-milestones "Permalink")
 
-**注意：**编辑里程碑需要[ Developer 或更高的](/docs/user/permissions.md)权限级别。
+**注意：**编辑里程碑需要[ Developer 或更高的](/docs/user/permissions)权限级别。
 
 可以通过以下步骤编辑里程碑：
 
@@ -74,17 +74,17 @@ CODEChina 中的里程碑是一种跟踪 Issue 及合并请求并在一定时期
 
 ## 设置里程碑[](#assigning-milestones-from-the-sidebar "Permalink")
 
-可以为每个 Issue 及合并请求分配一个里程碑，里程碑在边栏中的每个 Issue 及合并请求页面上可见，它们在看板上也可见。您可以在页面右侧为对象分配或取消里程碑。您也可以在讨论中[快速](/docs/user/project/quick-actions.md)执行此操作。 [如前所述](#project-milestones-and-group-milestones) ，对于给定的发布或合并请求，可以选择项目里程碑和组里程碑并将其分配给对象。
+可以为每个 Issue 及合并请求分配一个里程碑，里程碑在边栏中的每个 Issue 及合并请求页面上可见，它们在看板上也可见。您可以在页面右侧为对象分配或取消里程碑。您也可以在讨论中[快速](/docs/user/project/quick-actions)执行此操作。 [如前所述](#project-milestones-and-group-milestones) ，对于给定的发布或合并请求，可以选择项目里程碑和组里程碑并将其分配给对象。
 
 ## 按里程碑过滤 Issue 及合并请求[](#filtering-issues-and-merge-requests-by-milestone "Permalink")
 
 ### 在列表页过滤[](#filtering-in-list-pages "Permalink")
 
-在项目 Issue、合并请求列表页面和用户的 Issue 及合并请求列表页面中，可以按组里程碑和项目里程碑进行[筛选](/docs/user/search.md#issues-and-merge-requests) .
+在项目 Issue、合并请求列表页面和用户的 Issue 及合并请求列表页面中，可以按组里程碑和项目里程碑进行[筛选](/docs/user/search#issues-and-merge-requests) .
 
 ### 在看板上过滤[](#filtering-in-issue-boards "Permalink")
 
-*   在[项目看板上](/docs/user/project/kanban.md) ，您可以在[搜索和过滤器栏中](/docs/user/search.md#issue-boards)按组里程碑和项目里程碑进行[筛选](/docs/user/search.md#issue-boards) 
+*   在[项目看板上](/docs/user/project/kanban) ，您可以在[搜索和过滤器栏中](/docs/user/search#issue-boards)按组里程碑和项目里程碑进行[筛选](/docs/user/search#issue-boards) 
 
 ### 特殊里程碑过滤[](#special-milestone-filters "Permalink")
 

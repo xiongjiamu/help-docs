@@ -20,7 +20,7 @@
 
 ## 工作方式[](#how-it-works "Permalink")
 
-看板功能通过将 CODEChina 现有的[发行跟踪功能](/docs/user/project/issues.md#issues-list)和[标签](/docs/user/project/label.md)用作 Scrum 板的列表而建立。
+看板功能通过将 CODEChina 现有的[发行跟踪功能](/docs/user/project/issues#issues-list)和[标签](/docs/user/project/label)用作 Scrum 板的列表而建立。
 
 使用看板，您可以对 Issue 有不同的看法，同时保持在问题跟踪器中看到的相同过滤和排序功能。看板基于其项目的标签结构，因此它使用相同的描述性标签来指示在板上的位置，从而在整个开发生命周期中保持一致性。
 
@@ -105,7 +105,7 @@
 
 ## 权限[](#permissions "Permalink")
 
-具有[报告者和更高角色的](/docs/user/permissions.md)用户可以使用看板的所有功能来创建或删除列表，并将问题从一个列表拖动到另一个列表。
+具有[报告者和更高角色的](/docs/user/permissions)用户可以使用看板的所有功能来创建或删除列表，并将问题从一个列表拖动到另一个列表。
 
 ### 多看板[](#multiple-issue-boards "Permalink")
 
@@ -204,7 +204,7 @@
 
 使用看板的典型工作流程为：
 
-1.  您已经[创建了](/docs/user/project/label.md#label-management)标签并对其进行了[优先排序](/docs/user/project/label.md#label-priority)以便可以轻松地对问题进行分类
+1.  您已经[创建了](/docs/user/project/label#label-management)标签并对其进行了[优先排序](/docs/user/project/label#label-priority)以便可以轻松地对问题进行分类
 2.  您遇到很多问题（理想情况下是带有标签的）
 3.  您访问看板并开始[创建列表](#create-a-new-list)以创建工作流程
 4.  您可以在列表中四处移动问题，以便您的团队知道谁应该处理什么问题
@@ -243,13 +243,13 @@
 
 访问看板时，问题在任何列表中都显示为有序。您可以通过拖放问题来更改顺序，更改后的顺序将保存到系统中，以便以后访问同一板的任何人都可以看到新的排序结果，但也有一些例外：
 
-给定问题首次出现在任何面板中（即用户首次加载包含该问题的面板）时，将根据[优先级顺序](/docs/user/project/label.md#label-priority)对该列表中的其他问题进行[排序](/docs/user/project/label.md#label-priority) 。
+给定问题首次出现在任何面板中（即用户首次加载包含该问题的面板）时，将根据[优先级顺序](/docs/user/project/label#label-priority)对该列表中的其他问题进行[排序](/docs/user/project/label#label-priority) 。
 
 此时，系统会为该问题分配一个相对顺序值，该值代表其相对于列表中其他问题的相对顺序，每当您拖放该问题的重新排序时，其相对顺序值都会相应更改。
 
 同样，当问题由用户加载时，在任何板上出现的任何时间，都会使用更新的相对顺序进行排序（这是第一次出现从上述优先顺序中提取问题的问题）。这意味着，如果您给定板上的任何用户将问题`A`拖放到问题`B`上方的顺序进行了重新排序，每当随后将这两个问题加载到任何板（例如，可以是不同的项目板或不同的组板）中时，都将维持该排序。
 
-此顺序还会影响[问题列表](/docs/user/project/issues/sort.md) ，在看板上更改排序会更改发行列表中的顺序，反之亦然。
+此顺序还会影响[问题列表](/docs/user/project/issues/sort) ，在看板上更改排序会更改发行列表中的顺序，反之亦然。
 
 ## Tips[](#tips "Permalink")
 

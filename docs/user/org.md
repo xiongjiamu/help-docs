@@ -5,7 +5,7 @@
 *   将相关项目组装在一起
 *   授予成员一次访问多个项目的权限
 
-组也可以嵌套在[子组织中](/docs/user/org/sub_org.md) 。
+组也可以嵌套在[子组织中](/docs/user/org/sub_org) 。
 
 通过单击顶部导航中的**组织>您的组织**来找到您的组织。
 
@@ -29,7 +29,7 @@
 *   通过在同一[命名空间](#命名空间)下组织相关项目并将成员添加到顶级组，可以以较少的步骤授予对多个项目和多个团队成员的访问权限。
 *   通过创建小组并包括适当的成员，可以轻松地`@mention`所有团队中的问题并合并请求。
 
-例如，您可以为公司成员创建一个[组织](/docs/user/org/sub_org.md) ，并为每个单独的团队创建一个[子组织](/docs/user/org/sub_org.md). 假设您创建了一个名为`company-team` ，并且在该组中为各个团队`backend-team` ， `frontend-team`和`production-team`创建了子组。
+例如，您可以为公司成员创建一个[组织](/docs/user/org/sub_org) ，并为每个单独的团队创建一个[子组织](/docs/user/org/sub_org). 假设您创建了一个名为`company-team` ，并且在该组中为各个团队`backend-team` ， `frontend-team`和`production-team`创建了子组。
 
 *   从问题开始新的实现时，请添加评论： *" `@company-team` ，让我们开始吧！* *`@company-team/backend-team`您很高兴！"*
 *   当您的后端团队需要前端提供帮助时，他们会添加一条评论： *" `@company-team/frontend-team`您能在这里帮助我们吗？"*
@@ -59,15 +59,15 @@
 
 ## 组织内的Issue及合并请求[](#组织内的Issue及合并请求 "Permalink")
 
-Issue及合并请求是项目的一部分。对于组织，您可以在单个列表视图中查看所有[Issue](/docs/user/project/issues.md#issues-list)，也可以查看组织中所有项目的请求合并。
+Issue及合并请求是项目的一部分。对于组织，您可以在单个列表视图中查看所有[Issue](/docs/user/project/issues#issues-list)，也可以查看组织中所有项目的请求合并。
 
 ### 批量编辑Issue及合并请求[](#批量编辑Issue及合并请求 "Permalink")
 
-有关详细信息，请参考[批量编辑Issue及合并请求](/docs/user/project/bulk-edit.md) 。
+有关详细信息，请参考[批量编辑Issue及合并请求](/docs/user/project/bulk-edit) 。
 
 ## 新建一个组织[](#新建一个组织 "Permalink")
 
-> 有关不允许用作组名的单词列表，请参见[保留名称](/docs/user/reserved.md) 。
+> 有关不允许用作组名的单词列表，请参见[保留名称](/docs/user/reserved) 。
 
 通过以下方式，您可以创建一个新的组织：
 
@@ -98,7 +98,7 @@ Issue及合并请求是项目的一部分。对于组织，您可以在单个列
 
 在**组织设置-组织成员设置**中将成员添加到组织，可以通过用户名或者注册邮箱来添加组织成员。
 
-选择[权限级别](/docs/user/permissions.md#permissions) ，然后添加新成员。您还可以设置该用户的到期日期。
+选择[权限级别](/docs/user/permissions#permissions) ，然后添加新成员。您还可以设置该用户的到期日期。
 
 假设一个有两个项目的组织：
 
@@ -122,7 +122,7 @@ Issue及合并请求是项目的一部分。对于组织，您可以在单个列
 
 ## 变更组织的所有者[](#变更组织的所有者 "Permalink")
 
-组织的所有关系是指至少有一个组织成员拥有组织的 [ Owner ](/docs/user/permissions.md#group-members-permissions)，一个组织至少需要一名所有者。
+组织的所有关系是指至少有一个组织成员拥有组织的 [ Owner ](/docs/user/permissions#group-members-permissions)，一个组织至少需要一名所有者。
 
 只有拥有一个所有者的组织可以变更组织的所有者。 可以通过以下方式变更组织唯一所有者：
 
@@ -132,7 +132,7 @@ Issue及合并请求是项目的一部分。对于组织，您可以在单个列
 
 ## 移除组织成员[](#移除组织成员 "Permalink")
 
-只有[ Owner ](/docs/user/permissions.md#group-members-permissions)权限的[用户](/docs/user/permissions.md#group-members-permissions)才能管理组织成员。
+只有[ Owner ](/docs/user/permissions#group-members-permissions)权限的[用户](/docs/user/permissions#group-members-permissions)才能管理组织成员。
 
 如果要移除的成员在该组中具有直接成员资格，则可以从该组织中移除该成员； 如果成员资格是从父组继承的，则该成员只能从父组中进行移除。
 
@@ -163,12 +163,12 @@ Issue及合并请求是项目的一部分。对于组织，您可以在单个列
 
 有两种方法可以在组织中新建项目：
 
-*   选择一个组，单击**新建项目**按钮 。 然后，您可以继续[创建您的项目](/docs/basic/create-project.md) 。
+*   选择一个组，单击**新建项目**按钮 。 然后，您可以继续[创建您的项目](/docs/basic/create-project) 。
 *   在创建项目时，从下拉菜单中选择已经创建的组名称空间
 
 ### 项目创建权限[](#项目创建权限 "Permalink")
 
-默认情况下， [开发人员和维护人员](/docs/user/permissions.md#group-members-permissions)可以在一个组下创建项目。
+默认情况下， [开发人员和维护人员](/docs/user/permissions#group-members-permissions)可以在一个组下创建项目。
 
 可以通过以下操作为特定组更改此项设置：
 
@@ -188,7 +188,7 @@ Issue及合并请求是项目的一部分。对于组织，您可以在单个列
 
 ## 与组织共享一个项目[](#与组织共享一个项目 "Permalink")
 
-您可以[与组织共享您的项目](/docs/user/project/member/share.md)，并向所有组织成员立即授予对该项目的访问权限。
+您可以[与组织共享您的项目](/docs/user/project/member/share)，并向所有组织成员立即授予对该项目的访问权限。
 
 或者，您可以[锁定与组织共享功能](#锁定与组织共享功能) 。
 
@@ -216,7 +216,7 @@ Issue及合并请求是项目的一部分。对于组织，您可以在单个列
 
 转移组织时，请注意：
 
-*   更改组织的父组织可能会产生一些副作用，具体的请参阅[更改存储库路径时的重定向](/docs/user/project.md#redirects-when-changing-repository-paths) ；
+*   更改组织的父组织可能会产生一些副作用，具体的请参阅[更改存储库路径时的重定向](/docs/user/project#redirects-when-changing-repository-paths) ；
 *   您只能将组织/子组织转移到您管理的组织/子组织中；
 *   您必须手动更新本地存储库以指向新位置；
 *   如果将要转移的父组织的公开可见性设置低于当前父组织，那么待转移组织机器项目的公开可见性将会与即将要转移到的父组织保持一致；
@@ -233,7 +233,7 @@ Issue及合并请求是项目的一部分。对于组织，您可以在单个列
 
 #### 变更组织的路径[](#变更组织的路径 "Permalink")
 
-变更组织的路径也可能会产生一些副作用，具体的请参考[重定向的行为](/docs/user/project.md#redirects-when-changing-repository-paths) 。
+变更组织的路径也可能会产生一些副作用，具体的请参考[重定向的行为](/docs/user/project#redirects-when-changing-repository-paths) 。
 
 如果您要腾出路径，以便其他组织或用户可以使用该路径，由于名称和路径都必须是唯一的，因此您在变更路径的同时也可能需要重命名该组织。
 
@@ -271,7 +271,7 @@ Issue及合并请求是项目的一部分。对于组织，您可以在单个列
 
 #### 锁定与组织共享功能[](#锁定与组织共享功能 "Permalink")
 
-该功能可防止一个组织中的[项目与另一个组共享项目](/docs/user/project/member/share.md)，以便对项目访问进行更严格的控制。
+该功能可防止一个组织中的[项目与另一个组共享项目](/docs/user/project/member/share)，以便对项目访问进行更严格的控制。
 
 例如，假设您有两个不同的团队（A 组和 B 组）在一个项目中一起工作，并且要继承该组成员身份，您可以在 A 组和 B 组之间设置共享项目。**使用组锁共享**可以防止其中的任何项目群组与其他群组共享，从而确保只有合适的群组成员才能访问这些项目。
 

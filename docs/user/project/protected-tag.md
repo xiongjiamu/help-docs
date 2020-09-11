@@ -2,7 +2,7 @@
 
 受保护的标签可控制谁有权创建标签，并防止创建后意外更新或删除。每个规则都允许您匹配单个标签名称，或使用通配符一次控制多个标签。
 
-此功能从[受保护的分支](/docs/user/project/protected-branch.md)演变而来。
+此功能从[受保护的分支](/docs/user/project/protected-branch)演变而来。
 
 ## 概览[](#overview "Permalink")
 

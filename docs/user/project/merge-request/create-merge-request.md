@@ -74,7 +74,7 @@ git commit -m "My commit message"
 git push origin my-new-branch 
 ```
 
-在输出中，GitLab 将提示您一个直接链接来创建合并请求：
+在输出中，CODEChina 将提示您一个直接链接来创建合并请求：
 
 ```markdown
 ...
@@ -90,7 +90,7 @@ remote:   https://codechina.csdn.net/my-group/my-project/merge_requests/new?merg
 
 ## 从 Issue 新建合并请求[](#new-merge-request-from-an-issue "Permalink")
 
-您也可以[直接从 issue 创建一个新的合并请求](/docs/user/project/repo/web-editor.md#create-a-new-branch-from-an-issue) 。
+您也可以[直接从 issue 创建一个新的合并请求](/docs/user/project/repo/web-editor#create-a-new-branch-from-an-issue) 。
 
 ## 从合并请求列表页新建合并请求[](#new-merge-request-from-the-merge-requests-page "Permalink")
 
@@ -107,7 +107,7 @@ Fork 项目在本地更改后，可以通过以下步骤从 fork 创建一个合
 5.  输入凭据后，单击" **比较分支"，然后继续**将本地更改与上游存储库进行比较
 6.  分配用户以查看您的更改，然后点击**提交合并请求** 
 
-合并更改后，您的更改将按照规范添加到上游存储库和分支中. 合并工作后，如果您不想对上游项目做出任何其他贡献，则可以通过[删除分支关系](/docs/user/project/settings.md#removing-a-fork-relationship) ，在**项目设置> 高级设置**部分[中将 fork 与](/docs/user/project/settings.md#removing-a-fork-relationship)上游项目断开链接。
+合并更改后，您的更改将按照规范添加到上游存储库和分支中. 合并工作后，如果您不想对上游项目做出任何其他贡献，则可以通过[删除分支关系](/docs/user/project/settings#removing-a-fork-relationship) ，在**项目设置> 高级设置**部分[中将 fork 与](/docs/user/project/settings#removing-a-fork-relationship)上游项目断开链接。
 
 ### 将补丁添加为电子邮件附件[](#adding-patches-when-creating-a-merge-request-via-e-mail "Permalink")
 
@@ -115,8 +115,8 @@ Fork 项目在本地更改后，可以通过以下步骤从 fork 创建一个合
 
 补丁的总大小不超过 2MB。
 
-如果主题的源分支不存在，那么将从存储库的 HEAD 或指定的目标分支创建源分支以应用补丁。可以使用[`/target_branch`快速操作](/docs/user/project/quick-actions.md)指定目标分支。如果源分支已经存在，则将在其顶部应用补丁。
+如果主题的源分支不存在，那么将从存储库的 HEAD 或指定的目标分支创建源分支以应用补丁。可以使用[`/target_branch`快速操作](/docs/user/project/quick-actions)指定目标分支。如果源分支已经存在，则将在其顶部应用补丁。
 
 ## 审查和管理合并请求[](#reviewing-and-managing-merge-requests "Permalink")
 
-提交合并请求后，可以通过 CODEChina 进行[审查和管理](/docs/user/project/merge-request/reviewing.md)。
+提交合并请求后，可以通过 CODEChina 进行[审查和管理](/docs/user/project/merge-request/reviewing)。

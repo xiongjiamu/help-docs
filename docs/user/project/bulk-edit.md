@@ -13,7 +13,7 @@
 
 ## 项目中批量编辑 Issue[](#bulk-edit-issues-at-the-project-level "Permalink")
 
-**注意：**您需要具有[Reporter 或更高](/docs/user/permissions.md)级别的权限才能管理 Issue 。
+**注意：**您需要具有[Reporter 或更高](/docs/user/permissions)级别的权限才能管理 Issue 。
 
 当批量编辑项目的 Issue 时，您可以更改 Issue 的以下属性：
 
@@ -32,7 +32,7 @@
 
 ## 项目中批量编辑合并请求[](#bulk-edit-merge-requests-at-the-project-level "Permalink")
 
-**注意：**您需要[开发人员或更高](/docs/user/permissions.md)级别的权限才能管理合并请求。
+**注意：**您需要[开发人员或更高](/docs/user/permissions)级别的权限才能管理合并请求。
 
 在项目中批量编辑合并请求时，可以编辑以下属性：
 
