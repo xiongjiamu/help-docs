@@ -1,7 +1,6 @@
 # 快速访问
 
-- [首页](README)
-- [概览](docs/overview)
+- [首页](home)
 - [组织](docs/user/org)
     - [子组织](docs/user/org/sub_org)
 - [项目](docs/user/project)
