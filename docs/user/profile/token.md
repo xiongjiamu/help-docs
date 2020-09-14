@@ -30,7 +30,7 @@
 
 | Scope | 引入 | Description |
 | --- | --- | --- |
-| `read_user` | [GitLab 8.15](https://gitlab.com/gitlab-org/gitlab-foss/-/merge_requests/5951) | 允许访问`/users`下的只读端点。本质上，允许用户 API中的任何`GET`请求 |
+| `read_user` | [GitLab 8.15](https://gitlab.com/gitlab-org/gitlab-foss/-/merge_requests/5951) | 允许访问`/users`下的只读接口。本质上，允许用户 API中的任何`GET`请求 |
 | `api` | [GitLab 8.15](https://gitlab.com/gitlab-org/gitlab-foss/-/merge_requests/5951) | 授予对 API 的完全读写访问权限，包括所有组和项目，容器注册表和程序包注册表 |
 | `read_api` | [GitLab 12.10](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/28944) | 授予对 API 的读取权限，包括所有组和项目，容器注册表和程序包注册表 |
 | `read_registry` | [GitLab 9.3](https://gitlab.com/gitlab-org/gitlab-foss/-/merge_requests/11845) | 如果项目是私有的并且需要授权，则允许读取（拉出） 容器注册表图像 |

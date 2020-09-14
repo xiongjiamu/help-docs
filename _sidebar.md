@@ -49,6 +49,7 @@
     - [管理Issue](docs/user/project/issues/manage)
     - [里程碑](docs/user/project/milestone)
     - [Issue排序](docs/user/project/issues/sort)
+- [API](/docs/api)
 - [用户](docs/user)
     - [举报用户](docs/user/abuse)
     - [用户账号](docs/user/account)
