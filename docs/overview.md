@@ -36,7 +36,7 @@
 | [关联 Issue](/docs/user/project/issues/crosslinking) | 在问题之间建立关系 |
 | Roadmap | 可视化史诗般的时间表 |
 | [时间跟踪](/docs/user/project/time-track) | 跟踪花费在问题和合并请求上的时间 |
-| [代办事项](/docs/user/todo) | 通过在简单仪表板上显示的时间顺序列表，跟踪需要注意的工作 |
+| [待办事项](/docs/user/todo) | 通过在简单仪表板上显示的时间顺序列表，跟踪需要注意的工作 |
 
 [返回概览](#概览)
 
