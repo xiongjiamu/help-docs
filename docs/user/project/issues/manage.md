@@ -1,6 +1,6 @@
 # 管理 Issue[](#managing-issues "Permalink")
 
-Issue 是通过想法和计划进行协工作的基本要素。 [创建](#create-a-new-issue) ， [移动](#moving-issues) ， [关闭](#closing-issues)和[删除](#deleting-issues) Issue 是 Issue 中的关键操作。
+Issue 是通过想法和计划进行协工作的基本要素。 [创建](#创建-issue) ， [移动](#移动-issue) ， [关闭](#关闭-issue)和[删除](#删除-issue) Issue 是 Issue 中的关键操作。
 
 ## 创建 Issue[](#create-a-new-issue "Permalink")
 
@@ -47,7 +47,7 @@ Issue 是通过想法和计划进行协工作的基本要素。 [创建](#create
 
 当提交或合并请求解决了一个或多个 Issue 时，在将提交或合并请求推送到项目的默认分支时将会自动关闭这些 Issue。
 
-如果提交消息或合并请求描述包含与[定义的模式](#default-closing-pattern)相匹配的文本，则匹配文本中引用的所有 Issue 均将被关闭。将提交推送到项目的[**默认**分支时](/docs/user/project/repo/branches#default-branch) ，或者将提交或合并请求合并到默认分支时，Issue 就会自动关闭。
+如果提交消息或合并请求描述包含与[定义的模式](#默认关闭表达式)相匹配的文本，则匹配文本中引用的所有 Issue 均将被关闭。将提交推送到项目的[**默认**分支时](/docs/user/project/repo/branches#默认分支) ，或者将提交或合并请求合并到默认分支时，Issue 就会自动关闭。
 
 例如，如果合并请求描述中包含`Closes #4, #6, Related to #5`，则合并合并请求时问题`#4`和`#6`将自动关闭，但不会合并`#5`，只会将其标记为相关 Issue ，但不会自动关闭。
 

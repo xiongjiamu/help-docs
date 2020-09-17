@@ -10,27 +10,27 @@
 
 [![Issue view](/docs/img/issues_main_view_numbered.png)](/docs/img/issues_main_view_numbered.png)
 
-*   **1.** [新建 Issue, 关闭 issue (重新开启 issue, 报告 issue)](#new-issue-close-issue-reopen-issue-report-issue)
-*   **2.** [新建待办事项](#to-do)
-*   **3.** [指派](#assignee)
-*   **4.** [里程碑](#milestone)
-*   **5.** [工时统计](#time-tracking)
-*   **6.** [截止日期](#due-date)
-*   **7.** [标签](#labels)
-*   **8.** [机密性](#confidentiality)
-*   **9.** [锁定 Issue](#lock-issue)
-*   **10.** [参与者](#participants)
-*   **11.** [通知](#notifications)
-*   **12.** [移动 Issue](#reference)
-*   **13.** [编辑 Issue](#edit)
-*   **14.** [Issue 描述](#description)
-*   **15.** [相关合并请求](#related-merge-requests)
-*   **16.** [点赞](#award-emoji)
-*   **17.** [查看全部活动](#show-all-activity)
-*   **18.** [创建合并请求](#create-merge-request)
-*   **19.** [Issue 历史](#issue-history)
-*   **20.** [评论](#comments)
-*   **21.** [提交评论，开启新的讨论，关闭 Issue](#submit-comment-start-a-thread-or-comment-and-close)
+*   **1.** [新建 Issue, 关闭 issue (重新开启 issue, 报告 issue)](#新建-issue-关闭-issue-重新开启-issue-报告-issue)
+*   **2.** [新建待办事项](#待办事项)
+*   **3.** [指派](#指派)
+*   **4.** [里程碑](#里程碑)
+*   **5.** [工时统计](#工时统计)
+*   **6.** [截止日期](#截止日期)
+*   **7.** [标签](#标签)
+*   **8.** [机密性](#机密性)
+*   **9.** [锁定 Issue](#锁定-issue)
+*   **10.** [参与者](#参与者)
+*   **11.** [通知](#通知)
+*   **12.** 移动 Issue
+*   **13.** [编辑 Issue](#编辑)
+*   **14.** [Issue 描述](#描述)
+*   **15.** [相关合并请求](#相关合并请求)
+*   **16.** [点赞](#点赞)
+*   **17.** [查看全部活动](#显示所有活动)
+*   **18.** [创建合并请求](#创建合并请求)
+*   **19.** [Issue 历史](#issue-历史记录)
+*   **20.** [评论](#评论)
+*   **21.** [提交评论，开启新的讨论，关闭 Issue](#提交评论开启新的讨论关闭-issue)
 
 Issue 从状态（打开或关闭）开始，然后是作者，并包括许多其他功能，在上图中编号，下面将逐一进行解释。
 
@@ -38,15 +38,15 @@ Issue 从状态（打开或关闭）开始，然后是作者，并包括许多�
 
 ### 新建 Issue, 关闭 issue (重新开启 issue, 报告 issue)[](#new-issue-close-issue-reopen-issue-report-issue "Permalink")
 
-单击" **新建 Issue"**将打开一个新窗口，可以在同一项目中创建一个新 Issue。单击**关闭 Issue**将关闭此 Issue，但不会被删除。如果 Issue 已经关闭，您仍然可以访问它，并且按钮将显示**重新开启 issue** ，您可以单击以重新打开 Issue，重新开放的 Issue 与其他任何 Issue 都没有不同。
+单击**新建 Issue**将打开一个新窗口，可以在同一项目中创建一个新 Issue。单击**关闭 Issue**将关闭此 Issue，但不会被删除。如果 Issue 已经关闭，您仍然可以访问它，并且按钮将显示**重新开启 issue** ，您可以单击以重新打开 Issue，重新开放的 Issue 与其他任何 Issue 都没有不同。
 
-如果您无权修改 Issue，则" **关闭 Issue"**按钮将替换为" **举报 Issue"** ，您可以单击该按钮以[提交](/docs/user/abuse)有关该 Issue [的滥用情况报告](/docs/user/abuse)； 如果您有权修改 Issue，但仅在关闭 Issue后，它也会显示.
+如果您无权修改 Issue，则**关闭 Issue**按钮将替换为**举报 Issue** ，您可以单击该按钮以[提交](/docs/user/abuse)有关该 Issue [的滥用情况报告](/docs/user/abuse)； 如果您有权修改 Issue，但仅在关闭 Issue后，它也会显示.
 
 ### 待办事项[](#to-do "Permalink")
 
 您可以在[待办事项列表](/docs/user/todo)添加待办事项或从中删除待办事项。具体可以执行的操作取决于待办事项是否已在"任务列表"中，如果问题是：
 
-*   已在您的待办事项清单上：该按钮标有" **标记为已完成"** ，单击按钮以从您的任务列表中删除该问题
+*   已在您的待办事项清单上：该按钮标有**标记为已完成** ，单击按钮以从您的任务列表中删除该问题
 *   不在您的待办事项清单上：该按钮标有**添加待办事项** ，单击按钮将问题添加到您的"任务列表"中
 
 ### 指派[](#assignee "Permalink")
@@ -66,7 +66,7 @@ Issue 从状态（打开或关闭）开始，然后是作者，并包括许多�
 
 ### 工时统计[](#time-tracking "Permalink")
 
-使用[快速行动](/docs/user/project/quick-actions)来[跟踪估计和花费在 Issue 上的时间](/docs/user/project/time-track) ，您可以添加解决 Issue [所需时间](/docs/user/project/time-track#estimates)的[估计](/docs/user/project/time-track#estimates)，还可以添加解决 Issue[所花费的时间](/docs/user/project/time-track#time-spent) 。
+使用[快速行动](/docs/user/project/quick-actions)来[跟踪估计和花费在 Issue 上的时间](/docs/user/project/time-track) ，您可以添加解决 Issue [所需时间](/docs/user/project/time-track#预估)的[估计](/docs/user/project/time-track#预估)，还可以添加解决 Issue[所花费的时间](/docs/user/project/time-track#花费时间) 。
 
 ### 截止日期[](#due-date "Permalink")
 
@@ -94,7 +94,7 @@ Issue 从状态（打开或关闭）开始，然后是作者，并包括许多�
 
 ### 通知[](#notifications "Permalink")
 
-单击图标以启用/禁用该 Issue 的[通知](/docs/user/account/email-notify#issue--epics--merge-request-events) ，如果您以任何方式参与了该 Issue，它将自动启用。
+单击图标以启用/禁用该 Issue 的[通知](/docs/user/account/email-notify#issue-epic-合并请求活动) ，如果您以任何方式参与了该 Issue，它将自动启用。
 
 *   **启用**: 如果您不是该 Issue 的参与者，但想要了解该 Issue 的进展，您可以启用并订阅该 Issue 的更新通知
 *   **禁用** ：如果您正在接收有关该 Issue 的更新通知，但不再希望接收它们，请禁用该通知
@@ -117,7 +117,7 @@ Issue 从状态（打开或关闭）开始，然后是作者，并包括许多�
 
 ### 相关的合并请求[](#related-merge-requests "Permalink")
 
-该 Issue 的描述或 Issue 讨论中提到的[合并请求](/docs/user/project/issues/crosslinking#from-merge-requests)在此处列为[相关合并请求](/docs/user/project/issues/crosslinking#from-merge-requests) ，另外，如果当前 Issue 在另一个合并请求中被提及，则该合并请求也将在此处列出。
+该 Issue 的描述或 Issue 讨论中提到的[合并请求](/docs/user/project/issues/crosslinking#在合并请求中关联)在此处列为[相关合并请求](/docs/user/project/issues/crosslinking#在合并请求中关联) ，另外，如果当前 Issue 在另一个合并请求中被提及，则该合并请求也将在此处列出。
 
 ### 点赞[](#award-emoji "Permalink")
 
@@ -134,14 +134,14 @@ Issue 从状态（打开或关闭）开始，然后是作者，并包括许多�
 
 此外:
 
-*   您可以使用`@username`或`@groupname`提及用户或组，除非他们已[禁用](#notifications)其配置文件设置中的[所有通知](#notifications) ，否则它们将通过待办事项和电子邮件得到[通知](#notifications) 
+*   您可以使用`@username`或`@groupname`提及用户或组，除非他们已[禁用](#通知)其配置文件设置中的[所有通知](#通知) ，否则它们将通过待办事项和电子邮件得到[通知](#通知) 
 *   自己的提及（当前登录的用户）将以不同的颜色突出显示，使您可以轻松查看涉及到的评论，帮助您快速关注它们。
 
 ### 创建合并请求[](#create-merge-request "Permalink")
 
 通过一个操作同时完成创建一个新的分支和**草稿**合并请求， 默认情况下，该分支将被命名为`issuenumber-title` ，但是您可以选择任何名称，并且系统会验证该分支是否已经被使用。创建的合并请求将自动继承 Issue 的里程碑和标签，并设置为在合并时自动关闭 Issue 。
 
-（可选）您可以选择仅创建一个[新分支](/docs/user/project/repo/web-editor#create-a-new-branch-from-an-issue) ，并以该 Issue 命名。
+（可选）您可以选择仅创建一个[新分支](/docs/user/project/repo/web-editor#从-issue-创建一个新分支) ，并以该 Issue 命名。
 
 ### Issue 历史记录[](#issue-history "Permalink")
 
@@ -162,6 +162,6 @@ Issue 从状态（打开或关闭）开始，然后是作者，并包括许多�
 撰写评论后，您可以：
 
 *   单击**评论** ，您的评论将被发布
-*   选择从下拉列表中**启动新的讨论** ，并在当前 Issue 的主讨论中启动一个新的[讨论]来讨论更具体的点，可邀请其他参与者直接回复您的讨论，并将相关评论分组在一起。
+*   选择从下拉列表中**启动新的讨论** ，并在当前 Issue 的主讨论中启动一个新的讨论来讨论更具体的点，可邀请其他参与者直接回复您的讨论，并将相关评论分组在一起。
 
 您也可以从此处关闭 Issue ，无需滚动到 Issue 页面的顶部再关闭 Issue。

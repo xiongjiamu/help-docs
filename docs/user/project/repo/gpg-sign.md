@@ -103,7 +103,7 @@ CODEChina 使用其自己的密钥环来验证 GPG 签名，它不访问任何�
     gpg --armor --export 30F2B65B9246B6CA 
     ```
 
-12.  最后一步，复制公钥并将其[添加到您的个人资料设置中](#adding-a-gpg-key-to-your-account)即可
+12.  最后一步，复制公钥并将其[添加到您的个人资料设置中](#在您的账号中添加-gpg-密钥)即可
 
 ## 在您的账号中添加 GPG 密钥[](#adding-a-gpg-key-to-your-account "Permalink")
 
@@ -111,7 +111,7 @@ CODEChina 使用其自己的密钥环来验证 GPG 签名，它不访问任何�
 
 您可以在个人资料的设置中添加 GPG 密钥：
 
-1.  点击右上角的头像，然后转到**"设置"** 
+1.  点击右上角的头像，然后转到**"设置** 
 
 2.  点击**GPG 密钥**，然后将您的*公共*密钥粘贴到"密钥"框中
 
@@ -119,7 +119,7 @@ CODEChina 使用其自己的密钥环来验证 GPG 签名，它不访问任何�
 
 ## 在 Git 中使用 GPG 密钥[](#associating-your-gpg-key-with-git "Permalink")
 
-[创建 GPG 密钥](#generating-a-gpg-key)并将其[添加到您的帐户之后](#adding-a-gpg-key-to-your-account) ，就可以开始在 git 中开始使用您的 GPG 密钥了。
+[创建 GPG 密钥](#创建-gpg-密钥)并将其[添加到您的帐户之后](#在您的账号中添加-gpg-密钥) ，就可以开始在 git 中开始使用您的 GPG 密钥了。
 
 1.  使用以下命令列出您刚刚创建的私密 GPG 密钥：
 
@@ -154,7 +154,7 @@ CODEChina 使用其自己的密钥环来验证 GPG 签名，它不访问任何�
 
 ## GPG 签名提交[](#signing-commits "Permalink")
 
-[创建 GPG 密钥](#generating-a-gpg-key)并将其[添加到您的帐户之后](#adding-a-gpg-key-to-your-account) ，您可以开始对提交进行签名：
+[创建 GPG 密钥](#创建-gpg-密钥)并将其[添加到您的帐户之后](#在您的账号中添加-gpg-密钥) ，您可以开始对提交进行签名：
 
 1.  像以前一样提交，唯一的区别是添加了`-S`标志：
 
@@ -163,7 +163,7 @@ CODEChina 使用其自己的密钥环来验证 GPG 签名，它不访问任何�
     ```
 
 2.  按提示输入 GPG 密钥的密码
-3.  推送至 CODEChina 并检查您的提交[是否已通过验证](#verifying-commits) 
+3.  推送至 CODEChina 并检查您的提交[是否已通过验证](#验证提交) 
 
 如果您不想在每次提交时都键入`-S`标志，则可以告诉 Git 自动签名您的提交：
 
@@ -173,7 +173,7 @@ git config --global commit.gpgsign true
 
 ## 验证提交[](#verifying-commits "Permalink")
 
-1.  在项目或[合并请求](/docs/user/project/merge-request)中，切换到" **提交"**选项卡，签名的提交将显示包含" Verified"或" Unverified"的徽章，具体取决于 GPG 签名的验证状态
+1.  在项目或[合并请求](/docs/user/project/merge-request)中，切换到**提交**选项卡，签名的提交将显示包含" Verified"或" Unverified"的徽章，具体取决于 GPG 签名的验证状态
 
     [![Signed and unsigned commits](/docs/img/project_signed_and_unsigned_commits.png)](/docs/img/project_signed_and_unsigned_commits.png)
 
@@ -187,17 +187,17 @@ git config --global commit.gpgsign true
 
 撤销 GPG 密钥：
 
-1.  点击右上角的头像，然后转到**"设置"**
+1.  点击右上角的头像，然后转到**"设置**
 2.  点击**GPG 键**标签
 3.  单击您要删除的 GPG 键旁边**的撤消** 
 
 ## 删除 GPG 密钥[](#removing-a-gpg-key "Permalink")
 
-删除密钥**不会**取消已提交签名的**验证**状态，使用此密钥验证的提交将保持验证状态。删除此密钥后，只有未提交的才会保持未验证状态。要取消验证已签名的提交，您需要从您的帐户中[撤销关联的 GPG 密钥](#revoking-a-gpg-key) 。
+删除密钥**不会**取消已提交签名的**验证**状态，使用此密钥验证的提交将保持验证状态。删除此密钥后，只有未提交的才会保持未验证状态。要取消验证已签名的提交，您需要从您的帐户中[撤销关联的 GPG 密钥](#撤销-gpg-密钥) 。
 
 要从您的帐户中删除 GPG 密钥，请执行以下操作：
 
-1.  点击右上角的头像，然后转到**"设置"** 
+1.  点击右上角的头像，然后转到**"设置** 
 2.  点击**GPG 键**标签
 3.  单击您要删除的 GPG 密钥旁边的删除图标
 

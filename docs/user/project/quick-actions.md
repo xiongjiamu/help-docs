@@ -1,6 +1,6 @@
 # 快速操作[](#quick-actions "Permalink")
 
-快速操作是针对 Issue 、Epic、合并请求和提交的常见操作的文本快捷方式，通常可通过在 CODEChina 用户界面中单击按钮或下拉菜单来完成。您可以在 Issue、史诗、合并请求和提交的说明中或讨论中输入这些命令，每个命令应放在单独的行上，以便正确检测和执行。
+快速操作是针对 Issue 、Epic、合并请求和提交的常见操作的文本快捷方式，通常可通过在 CODEChina 用户界面中单击按钮或下拉菜单来完成。您可以在 Issue、Epic、合并请求和提交的说明中或讨论中输入这些命令，每个命令需要放在单独的行上，以便正确检测和执行。
 
 ## Issue、合并请求及 Epic 的快速操作[](#quick-actions-for-issues-merge-requests-and-epics "Permalink")
 

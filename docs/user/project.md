@@ -27,7 +27,7 @@
     *   [发行板](/docs/user/project/kanban) ：组织工作流程并确定其优先级
 *   [合并请求](/docs/user/project/merge-request) ：应用您的分支策略并获得团队的审查
     *   合并请求批准 ：实施更改之前请求批准
-    *   [修复合并中的冲突](/docs/user/project/merge-request/resolve-conflicts) ：直接从网页中使用 Git diff 工具
+        *   [修复合并中的冲突](/docs/user/project/merge-request/resolve-conflicts) ：直接从网页中使用 Git diff 工具
     *   审查应用程序 ：按分支实时预览合并请求中建议的更改结果
 *   [标签](/docs/user/project/label) ：按标签整理问题并合并请求
 *   [时间跟踪](/docs/user/project/time-track) ：跟踪估计在完成问题或合并请求上花费的时间和时间
@@ -94,7 +94,7 @@
 1.  单击导航栏中的**项目** 
 2.  单击**探索项目**
 
-我们将为您显示一个项目列表，按上次更新日期排序。 要查看具有最多[Star](#star-a-project)项目，请单击 **最多Star** ；要查看过去一个月中评论数量最多的项目，请点击**趋势** 。
+我们将为您显示一个项目列表，按上次更新日期排序。 要查看具有最多[Star](#star-项目)项目，请单击 **最多Star** ；要查看过去一个月中评论数量最多的项目，请点击**趋势** 。
 
 ## 项目设置[](#项目设置 "Permalink")
 
@@ -136,9 +136,9 @@
 
 项目首页会根据项目的可见性设置和用户权限来显示不同的内容：
 
-对于公共项目以及私有项目中[有权查看该项目代码](/docs/user/permissions#project-members-permissions)的项目成员：
+对于公共项目以及私有项目中[有权查看该项目代码](/docs/user/permissions#项目成员权限)的项目成员：
 
-*   显示[`README`文件或索引文件的](/docs/user/project/repo#repository-readme-and-index-files)内容（如果有），然后显示项目存储库中的目录列表
+*   显示[`README`文件或索引文件的](/docs/user/project/repo#项目-readme-和-index-文件)内容（如果有），然后显示项目存储库中的目录列表
 *   如果项目不包含这些文件中的任何一个，则访问者将看到存储库的文件和目录列表
 
 对于没有权限查看项目代码的用户：

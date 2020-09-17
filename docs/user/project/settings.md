@@ -12,7 +12,7 @@
 
 调整项目的名称，描述，头像，默认分支和主题：
 
-项目描述还部分支持[标准 Markdown](/docs/user/markdown#standard-markdown-and-extensions-in-gitlab) ，您可以使用[强调](/docs/user/markdown#emphasis) ， [链接](/docs/user/markdown#links)和[换行符](/docs/user/markdown#line-breaks)为项目描述添加更多上下文。
+项目描述还部分支持[标准 Markdown](/docs/user/markdown#standard-markdown-and-extensions-in-gitlab) ，您可以使用[强调](/docs/user/markdown#强调) ， [链接](/docs/user/markdown#链接)和[换行符](/docs/user/markdown#换行)为项目描述添加更多上下文。
 
 #### 合规性框架[](#compliance-framework-premium "Permalink")
 
@@ -26,9 +26,9 @@
 
 ### 共享和权限[](#sharing-and-permissions "Permalink")
 
-对于您的代码仓库，您可以设置例如公共访问，存储库功能，文档，访问权限等等。要从您的项目中执行此操作，请转到**"项目设置"** >" **常规设置"** ，然后展开" **可见性"，"项目功能"，"权限"**部分。
+对于您的代码仓库，您可以设置例如公共访问，存储库功能，文档，访问权限等等。要从您的项目中执行此操作，请转到**"项目设置** >**常规设置** ，然后展开**可见性"，"项目功能"，"权限**部分。
 
-现在，您可以更改项目可见性，如果将" **项目可见性"**设置为公开，则可以将某些功能的访问权限限制为" **仅项目成员"** 。 此外，您可以选择[允许用户请求访问权限](/docs/user/project/member#project-membership-and-requesting-access)的选项。
+现在，您可以更改项目可见性，如果将**项目可见性**设置为公开，则可以将某些功能的访问权限限制为**仅项目成员** 。 此外，您可以选择[允许用户请求访问权限](/docs/user/project/member#申请项目权限)的选项。
 
 **警告：**如果降低项目的可见性级别，则该操作将取消该项目的所有分支的链接。
 
@@ -38,7 +38,7 @@
 | --- | --- | --- |
 | **Issues** | ✓ | 激活 Issue 跟踪器 |
 | **Repository** | ✓ | 启用 [仓库](/docs/user/project/repo) 功能 |
-| **合并请求** | ✓ | 启用[合并请求](/docs/user/project/merge-request)功能； 另请参阅[合并请求设置](#merge-request-settings) |
+| **合并请求** | ✓ | 启用[合并请求](/docs/user/project/merge-request)功能； 另请参阅[合并请求设置](#合并请求设置) |
 | **Forks** | ✓ | 允许 fork 项目 |
 | **Git 大文件存储** |   | 允许使用大文件 |
 | **Packages** |   | Supports configuration of a package registry functionality |
@@ -47,9 +47,9 @@
 
 一些功能取决于其他功能：
 
-*   如果禁用" ** Issue "**选项，则还将删除以下功能：
+*   如果禁用** Issue **选项，则还将删除以下功能：
     *   **看板**
-    *   [**服务台**](#service-desk-starter)**注意：**禁用" ** Issue "**选项后，您仍然可以从合并请求访问**里程碑** .
+    *   [**服务台**](#服务台)**注意：**禁用** Issue **选项后，您仍然可以从合并请求访问**里程碑** .
   
 *   此外，如果您同时禁用**Issues**和**合并请求** ，则将无法再访问：
     *   **标签**
@@ -65,7 +65,7 @@
 
 #### 禁用邮件通知[](#disabling-email-notifications "Permalink")
 
-项目 Owner 可以通过选中" **禁用电子邮件通知"**复选框来**禁用**与项目相关的所有[电子邮件通知](/docs/user/account/email-notify#gitlab-notification-emails)。
+项目 Owner 可以通过选中**禁用电子邮件通知**复选框来**禁用**与项目相关的所有[电子邮件通知](/docs/user/account/email-notify#gitlab-notification-emails)。
 
 ### 合并请求设置[](#merge-request-settings "Permalink")
 
@@ -89,7 +89,7 @@
 
 ### 高级设置[](#advanced-settings "Permalink")
 
-在这里，您可以运行内部管理，存档，重命名，传输， [删除派生关系](#removing-a-fork-relationship)或删除项目。
+在这里，您可以运行内部管理，存档，重命名，传输， [删除 fork 项目关系](#删除-fork-项目关系)或删除项目。
 
 #### 归档项目[](#archiving-a-project "Permalink")
 
@@ -100,8 +100,8 @@
 可以通过以下步骤归档一个项目：
 
 1.  进入到您项目的 **项目设置>常规设置** 
-2.  在" **高级"下** ，单击" **展开"** 
-3.  在" **存档项目"**部分中，单击" **存档项目"**按钮
+2.  在**高级"下** ，单击**展开** 
+3.  在**存档项目**部分中，单击**存档项目**按钮
 4.  根据要求确认操作
 
 #### 取消项目归档[](#unarchiving-a-project "Permalink")
@@ -113,25 +113,25 @@
 1.  以具有项目 Owner 的用户身份登录到 CODEChina
 2.  如果你：
     *   拥有项目的 URL，在浏览器中打开项目的页面.
-    *   没有项目的 URL：1.单击**项目>浏览项目** ；1.在" **排序项目"**下拉框中，选择" **显示存档的项目"** ；1.在**按名称过滤**字段中，提供项目的名称；1.单击指向项目的链接以打开其" **详细信息"**页面
+    *   没有项目的 URL：1.单击**项目>浏览项目** ；1.在**排序项目**下拉框中，选择**显示存档的项目** ；1.在**按名称过滤**字段中，提供项目的名称；1.单击指向项目的链接以打开其**详细信息**页面
 
 接下来，要取消归档项目：
 
 1.  进入到您项目的 **项目设置>常规设置** .
 2.  在 **归档项目**, 点击 **展开**.
-3.  在" **取消存档项目"**部分中，单击" **取消存档项目"**按钮
+3.  在**取消存档项目**部分中，单击**取消存档项目**按钮
 4.  根据要求确认操作
 
 #### 重命名一个项目[](#renaming-a-repository "Permalink")
 
-**注意：**只有项目维护者才[有权](/docs/user/permissions#project-members-permissions)重命名代码仓库。不要与项目名称混淆，也可以从[常规项目设置中](#general-project-settings)进行更改。
+**注意：**只有项目维护者才[有权](/docs/user/permissions#项目成员权限)重命名代码仓库。不要与项目名称混淆，也可以从[常规项目设置中](#常规设置)进行更改。
 
 项目的存储库名称定义其 URL（您用于通过浏览器访问该项目的 URL）及其在安装服务器的文件磁盘上的位置。
 
 要重命名存储库：
 
 1.  进入到您项目的 **项目设置>常规设置** 
-2.  在" **高级"下** ，单击" **展开"** 
+2.  在**高级下** ，单击**展开** 
 3.  在"重命名存储库"下，根据您的喜好更改"路径"
 4.  Hit **重命名项目**
 
@@ -143,14 +143,14 @@
 
 在以下情况下，您可以将现有项目转移到[组织中](/docs/user/org) ：
 
-*   您至少对该组具有** maintainer ** [权限](/docs/user/permissions#project-members-permissions) 
+*   您至少对该组具有** maintainer ** [权限](/docs/user/permissions#项目成员权限) 
 *   您至少是要转让的项目的** Owner ** 
 *   将项目转移到的组必须允许创建新项目
 
 开源通过以下操作进行项目的转移操作：
 
 1.  进入到您项目的 **项目设置>常规设置**
-2.  在" **高级"下** ，单击" **展开"**
+2.  在**高级"下** ，单击**展开**
 3.  在"传输项目"下，选择要将项目传输到的命名空间
 4.  按照说明键入项目路径，以确认传输
 
@@ -158,12 +158,12 @@
 
 #### 删除项目[](#remove-a-project "Permalink")
 
-**注意：**只有项目所有者和管理员才[有权](/docs/user/permissions#project-members-permissions)删除项目.
+**注意：**只有项目所有者和管理员才[有权](/docs/user/permissions#项目成员权限)删除项目.
 
 删除项目：
 
 1.  进入到您项目的 **项目设置>常规设置>高级** 
-2.  在"删除项目"部分中，单击" **删除项目"**按钮
+2.  在"删除项目"部分中，单击**删除项目**按钮
 3.  根据要求确认操作
 
 这个动作：
@@ -179,7 +179,7 @@ Fork 是为您不是项目成员的项目做贡献的好方法，如果您想自
 您可以通过以下操作来删除 fork 项目关系：
 
 1.  进入到您项目的**项目设置>常规设置>高级** .
-2.  在" **删除 fork 关系"下** ，单击删除按钮
+2.  在**删除 fork 关系"下** ，单击删除按钮
 3.  按照说明键入项目的路径，以确认删除操作
 
-**注意：**只有项目 Owner [有权](/docs/user/permissions#project-members-permissions)删除 fork 关系。
+**注意：**只有项目 Owner [有权](/docs/user/permissions#项目成员权限)删除 fork 关系。

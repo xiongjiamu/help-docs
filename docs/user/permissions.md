@@ -133,7 +133,7 @@
 4.  如果分支收到保护 ，则取决于授予开发人员和维护人员的权限
 5.  Guest 用户可以访问 项目的 [**Release**](/docs/user/project/releases)来下载资源，但不能下载源代码，也不能查看代码仓库信息（例如标签和提交）
 6.  操作仅限于用户拥有（引用）的记录​​
-7.  启用" [共享组锁定"后](/docs/user/org#share-with-group-lock) ，该项目将无法与其他组共享，它不影响具有组共享的组
+7.  启用" [共享组锁定"后](/docs/user/org#锁定与组织共享功能) ，该项目将无法与其他组共享，它不影响具有组共享的组
 
 ## 项目功能权限[](#project-features-permissions "Permalink")
 
@@ -156,7 +156,7 @@
 
 ### 机密 Issue 权限[](#confidential-issues-permissions "Permalink")
 
-报告者和更高的权限级别以及创建机密问题的来宾用户都可以访问机密问题. 要了解更多信息，请通读有关[权限和访问机密问题](/docs/user/project/issues/confidential#permissions-and-access-to-confidential-issues)的文档.
+报告者和更高的权限级别以及创建机密问题的来宾用户都可以访问机密问题. 要了解更多信息，请通读有关[权限和访问机密问题](/docs/user/project/issues/confidential#机密-issue-的访问权限)的文档.
 
 ## 组织成员权限[](#group-members-permissions "Permalink")
 

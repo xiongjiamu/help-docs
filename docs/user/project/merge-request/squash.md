@@ -25,7 +25,7 @@
 
 **注意：**在此示例中，压缩的提交之后是合并提交，因为此示例代码仓库的合并方法使用了合并提交。
 
-Squash 也适用于快进合并策略，有关更多详细信息，请参见[压缩和快进合并](#squash-and-fast-forward-merge) 。
+Squash 也适用于快进合并策略，有关更多详细信息，请参见[压缩和快进合并](#squash-和快进合并) 。
 
 ## 示例[](#use-cases "Permalink")
 
@@ -35,7 +35,7 @@ Squash 也适用于快进合并策略，有关更多详细信息，请参见[压
 
 这样，您的基本分支的历史记录将保留有意义的提交消息，并且：
 
-*   在有需要的情况下， [Revert](revert)更为简单
+*   在有需要的情况下， [Revert](/docs/user/project/merge-request/revert)更为简单
 *   合并的分支将保留完整的提交历史记录
 
 ## 合并时启用 Squash[](#enabling-squash-for-a-merge-request "Permalink")
@@ -58,4 +58,4 @@ Squash 的提交具有以下元数据：
 
 ## Squash 和快进合并[](#squash-and-fast-forward-merge "Permalink")
 
-当项目[启用](fast_forward#enabling-fast-forward-merges)了[快进合并设置时](fast_forward#enabling-fast-forward-merges) ，合并请求必须能够不 Squash 而进行快速转发以进行 Squash，这是因为 Squash 仅在接受合并请求时可用，因此即使 Squash 本身可以被认为等同于重新 Rebase，也可能需要在 Squash 之前对合并请求进行重新基准化。
+当项目[启用](/docs/user/project/merge-request/fast-forward#开启快进合并)了[快进合并设置时](/docs/user/project/merge-request/fast-forward#快进合并请求) ，合并请求必须能够不 Squash 而进行快速转发以进行 Squash，这是因为 Squash 仅在接受合并请求时可用，因此即使 Squash 本身可以被认为等同于重新 Rebase，也可能需要在 Squash 之前对合并请求进行重新基准化。

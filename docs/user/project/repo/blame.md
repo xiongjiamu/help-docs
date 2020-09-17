@@ -14,7 +14,7 @@
 
 ## 历史提交 Blame[](#blame-previous-commit "Permalink")
 
-要查看特定行的早期修订，请**在此更改**之前单击" **查看责备"，**直到找到您有兴趣查看的**更改**为止：
+要查看特定行的早期修订，请**在此更改**之前单击**查看责备"，**直到找到您有兴趣查看的**更改**为止：
 
 [![Blame previous commit](/docs/img/file_blame_previous_commit_v12_7.png "Blame previous commit")](/docs/img/file_blame_previous_commit_v12_7.png)
 

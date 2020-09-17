@@ -22,11 +22,11 @@
 
 用户界面允许您执行许多 Git 命令，而无在命令行中执行命令。您可以通过用户界面很容易的实现以下操作：
 
-*   [新建文件](/docs/user/project/repo/web-editor#create-a-file)
-*   [上传文件](/docs/user/project/repo/web-editor#upload-a-file)
-*   [文件模板](/docs/user/project/repo/web-editor#template-dropdowns)
-*   [新建目录](/docs/user/project/repo/web-editor#create-a-directory)
-*   [新建合并请求](/docs/user/project/repo/web-editor#tips)
+*   [新建文件](/docs/user/project/repo/web-editor#创建文件)
+*   [上传文件](/docs/user/project/repo/web-editor#上传文件)
+*   [文件模板](/docs/user/project/repo/web-editor#文件模板)
+*   [新建目录](/docs/user/project/repo/web-editor#新建目录)
+*   [新建合并请求](/docs/user/project/repo/web-editor#提示)
 *   [查找文件](/docs/user/project/repo/file-find)
 *   [blame](/docs/user/project/repo/blame))
 
@@ -56,7 +56,7 @@
 
 当代码仓库中存在`README`或`index`文件时，我们将自动渲染他们的内容，用户无需打开它。
 
-它们可以是纯文本，也可以具有[受支持的标记语言](#supported-markup-languages-and-extensions)的扩展名：
+它们可以是纯文本，也可以具有[受支持的标记语言](#支持的语言标记)的扩展名：
 
 有关优先级的一些注意事项：
 
@@ -99,9 +99,9 @@
 [提交更改时](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository) ，您会将这些更改引入分支机构。通过命令行，您可以在提交之前多次提交。
 
 *   **提交消息：**提交消息对于标识正在更改的内容以及更重要的原因至关重要. 在 GitLab 中，您可以将关键字添加到提交消息中，以执行以下操作之一：
-    *   **交叉链接问题和合并请求：** [交叉链接](/docs/user/project/issues/crosslinking#from-commit-messages)非常适合跟踪工作流程中与之相关的内容. 如果您在提交消息中提到问题或合并请求，它们将显示在各自的线程上
+    *   **交叉链接问题和合并请求：** [交叉链接](/docs/user/project/issues/crosslinking#在提交信息中关联)非常适合跟踪工作流程中与之相关的内容. 如果您在提交消息中提到问题或合并请求，它们将显示在各自的线程上
 *   ** Cherry-pick 提交：**您可以直接从界面 [cherry-pick](/docs/user/project/merge-request/cherry-pick) 
-*   **Revert 提交：**可以将提交从界面[还原](/docs/user/project/merge-request/revert#reverting-a-commit)到所选分支
+*   **Revert 提交：**可以将提交从界面[还原](/docs/user/project/merge-request/revert#revert-提交)到所选分支
 *   **签署提交：**使用 GPG [签署您的提交](/docs/user/project/repo/gpg-sign) 
 
 ## 项目和仓库大小[](#project-and-repository-size "Permalink")

@@ -4,7 +4,7 @@
 
 ## Reverting 合并请求[](#reverting-a-merge-request "Permalink")
 
-**注意：**仅对使用合并方法"合并提交"的项目显示 **Revert** 按钮，该方法可以在项目的**"项目设置">"常规">"合并请求"**下**设置**，无法通过 合并请求视图还原[快进提交](fast_forward_merge.html)。
+**注意：**仅对使用合并方法"合并提交"的项目显示 **Revert** 按钮，该方法可以在项目的**"项目设置">"常规">"合并请求**下**设置**，无法通过 合并请求视图还原[快进提交](/fast-docs/user/project/merge-request/fast-forward)。
 
 合并请求合并后，将有一个**还原**按钮可用于还原该合并请求引入的更改.
 
@@ -14,7 +14,7 @@
 
 合并请求 Revert 后，**Revert**按钮将不再可用。
 
-## Reverting 提及[](#reverting-a-commit "Permalink")
+## Revert 提交[](#reverting-a-commit "Permalink")
 
 您可以从提交详细信息页面 Revert 提交：
 

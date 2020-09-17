@@ -4,7 +4,7 @@
 
 在大多数情况下，Git 能够自动合并分支之间的更改，但是在某些情况下，Git 需要您的帮助来手动解决冲突。通常，当人们更改了同一文件的相同部分时，这就需要手动来解决冲突了。
 
-在解决所有冲突之前，系统将阻止合并请求。冲突可以在本地解决，许多情况下在 CODEChina 网页上也可以解决（有关何时可用的信息，请参见可解决的[冲突](#conflicts-available-for-resolution) ）。
+在解决所有冲突之前，系统将阻止合并请求。冲突可以在本地解决，许多情况下在 CODEChina 网页上也可以解决（有关何时可用的信息，请参见可解决的[冲突](#可解决的冲突) ）。
 
 [![Merge request widget](/docs/img/merge_request_widget.png)](/docs/img/merge_request_widget.png)
 

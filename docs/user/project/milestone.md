@@ -62,7 +62,7 @@ CODEChina 中的里程碑是一种跟踪 Issue 及合并请求并在一定时期
 2.  单击里程碑标题
 3.  单击**编辑**按钮
 
-您可以通过单击" **删除"**按钮来删除里程碑。
+您可以通过单击**删除**按钮来删除里程碑。
 
 ### 将项目里程碑提升为组织里程碑[](#promoting-project-milestones-to-group-milestones "Permalink")
 
@@ -70,11 +70,11 @@ CODEChina 中的里程碑是一种跟踪 Issue 及合并请求并在一定时期
 
 在项目里程碑列表页面，您可以将项目里程碑升级为组里程碑。这会将具有相同名称的该组中所有项目中的所有项目里程碑合并为一个组里程碑，以前已分配给这些项目里程碑之一的所有问题和合并请求现在都将分配给新的组里程碑。注意：此操作不能撤消，更改是永久的。
 
-**警告：**将项目里程碑提升为组里程碑时，某些信息会丢失。组里程碑视图上并非项目里程碑视图上的所有功能都可用，如果将项目里程碑升级为组里程碑，则将失去这些功能。请参阅" [里程碑"](#milestone-view)视图以查看组里程碑视图中缺少哪些功能。
+**警告：**将项目里程碑提升为组里程碑时，某些信息会丢失。组里程碑视图上并非项目里程碑视图上的所有功能都可用，如果将项目里程碑升级为组里程碑，则将失去这些功能。请参阅" [里程碑"](#认识里程碑)视图以查看组里程碑视图中缺少哪些功能。
 
 ## 设置里程碑[](#assigning-milestones-from-the-sidebar "Permalink")
 
-可以为每个 Issue 及合并请求分配一个里程碑，里程碑在边栏中的每个 Issue 及合并请求页面上可见，它们在看板上也可见。您可以在页面右侧为对象分配或取消里程碑。您也可以在讨论中[快速](/docs/user/project/quick-actions)执行此操作。 [如前所述](#project-milestones-and-group-milestones) ，对于给定的发布或合并请求，可以选择项目里程碑和组里程碑并将其分配给对象。
+可以为每个 Issue 及合并请求分配一个里程碑，里程碑在边栏中的每个 Issue 及合并请求页面上可见，它们在看板上也可见。您可以在页面右侧为对象分配或取消里程碑。您也可以在讨论中[快速](/docs/user/project/quick-actions)执行此操作。 [如前所述](#项目里程碑和组织里程碑) ，对于给定的发布或合并请求，可以选择项目里程碑和组里程碑并将其分配给对象。
 
 ## 按里程碑过滤 Issue 及合并请求[](#filtering-issues-and-merge-requests-by-milestone "Permalink")
 
@@ -84,7 +84,7 @@ CODEChina 中的里程碑是一种跟踪 Issue 及合并请求并在一定时期
 
 ### 在看板上过滤[](#filtering-in-issue-boards "Permalink")
 
-*   在[项目看板上](/docs/user/project/kanban) ，您可以在[搜索和过滤器栏中](/docs/user/search#issue-boards)按组里程碑和项目里程碑进行[筛选](/docs/user/search#issue-boards) 
+*   在[项目看板上](/docs/user/project/kanban) ，您可以在[搜索和过滤器栏中](/docs/user/search#issue-boards)按组里程碑和项目里程碑进行[筛选](/docs/user/search#看板) 
 
 ### 特殊里程碑过滤[](#special-milestone-filters "Permalink")
 

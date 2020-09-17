@@ -1,12 +1,12 @@
 # 机密 Issue[](#confidential-issues "Permalink")
 
-机密性 Issue 是指那些仅具有[足够权限](#permissions-and-access-to-confidential-issues)的项目成员可见的 Issue， 开源项目和公司都可以使用机密 Issue 来使安全漏洞不被公开或防止意外泄漏。
+机密性 Issue 是指那些仅具有[足够权限](#机密-issue-的访问权限)的项目成员可见的 Issue， 开源项目和公司都可以使用机密 Issue 来使安全漏洞不被公开或防止意外泄漏。
 
 ## 将 Issue 设置为私密[](#making-an-issue-confidential "Permalink")
 
 您可以在创建 Issue 或编辑现有 Issue 的过程中将其设置为保密。
 
-创建新 Issue 时，可以在文本区域下方的复选框中将问题标记为机密 Issue。选中该框，然后点击" **提交问题"**按钮以创建 Issue。对于现有 Issue ，可以对其进行编辑，然后选中机密复选框，并点击**保存更改** 。
+创建新 Issue 时，可以在文本区域下方的复选框中将问题标记为机密 Issue。选中该框，然后点击**提交问题**按钮以创建 Issue。对于现有 Issue ，可以对其进行编辑，然后选中机密复选框，并点击**保存更改** 。
 
 [![Creating a new confidential issue](/docs/img/confidential_issues_create.png)](/docs/img/confidential_issues_create.png)
 
@@ -62,7 +62,7 @@ Issue 详情页右边栏也有一个 机密性的标识：
 
 **项目**下拉列表将显示用户至少是 Developer，并且合并请求已启用的全部私有 Fork 项目列表。
 
-每当" **分支名称"**和" **源（分支或标记）"**字段更改时，将检查目标或源分支的可用性。 两个分支都应在所选的私有 Fork项目中可用。
+每当**分支名称**和**源（分支或标记）**字段更改时，将检查目标或源分支的可用性。 两个分支都应在所选的私有 Fork项目中可用。
 
 单击**创建机密合并请求**按钮后，将在私有 Fork 项目中创建分支和合并请求，当选择**创建分支**时，将仅创建分支。
 

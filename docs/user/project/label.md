@@ -8,7 +8,7 @@
 
 *   使用颜色和描述性标题（例如`bug` ， `feature request`或`docs`对 Epic，Issue 及合并请求进行分类
 *   动态过滤和管理 Epic、 Issue 及合并请求
-*   [搜索 Issue 列表、合并请求和史诗](/docs/user/search#issues-and-merge-requests)以及[看板](/docs/user/search#issue-boards) 
+*   [搜索 Issue 列表、合并请求和史诗](/docs/user/search#issues-及合并请求)以及[看板](/docs/user/search#看板) 
 
 ## 项目标记和组织标记[](#project-labels-and-group-labels "Permalink")
 
@@ -31,9 +31,9 @@
 
 您也可以使用[`/assign @username`快速操作](/docs/user/project/quick-actions)来分配标记。
 
-## Label management[](#label-management "Permalink")
+## 标记管理[](#label-management "Permalink")
 
-具有 Reporter 或更高[权限级别](../permissions.html)的用户可以创建和编辑标记。
+具有 Reporter 或更高[权限级别](/docs/user/permissions)的用户可以创建和编辑标记。
 
 ### 项目标记[](#project-labels "Permalink")
 
@@ -41,7 +41,7 @@
 
 可以通过以下步骤创建一个新的项目标记：
 
-1.  进入到项目中的" ** Issue ">"标记** "
+1.  进入到项目中的** Issue ">"标记** "
 2.  单击**新建标记**按钮
     *   输入标题
     *   （可选）输入描述
@@ -56,7 +56,7 @@
     *   （可选）通过单击可用颜色来选择颜色，或输入特定颜色的十六进制颜色值
 3.  单击 **创建项目标记**
 
-创建标记后，您可以点击编辑，或通过单击三个点旁边的" **订阅"**按钮，然后选择" **删除"** 
+创建标记后，您可以点击编辑，或通过单击三个点旁边的**订阅**按钮，然后选择**删除** 
 
 #### 将项目标记提升为组织标记[](#promote-a-project-label-to-a-group-label "Permalink")
 
@@ -70,14 +70,14 @@
 
 要将项目标记提升为组标记：
 
-1.  导航到项目中的" **问题">"标记** "
+1.  导航到项目中的**问题">"标记** "
 2.  单击**订阅**按钮旁边的三个点，然后选择**升级为组标记** 
 
 ### 组织标记[](#group-labels "Permalink")
 
 通过转到组织并单击** Issue >标记**来查看组标记列表，该列表包括仅在组级别定义的所有标记。它没有列出项目中定义的任何标记，您可以通过在顶部输入搜索查询并点击搜索。
 
-要创建**组标记**，可以进入到**组织** **组织设置>标记** ，并按照与[创建项目标记](#project-labels)相同的过程进行操作即可。
+要创建**组标记**，可以进入到**组织** **组织设置>标记** ，并按照与[创建项目标记](#项目标记)相同的过程进行操作即可。
 
 ### 创建默认标记[](#generate-default-labels "Permalink")
 
@@ -100,7 +100,7 @@
 
 ## 标记优先级[](#label-priority "Permalink")
 
-标记可以具有相对优先级，在 Issue 及合并请求列表页面的" **标记优先级"**和" **优先级"**排序顺序中使用。 组标记和项目标记的优先级都在项目级别进行，不能从组标记列表中进行。
+标记可以具有相对优先级，在 Issue 及合并请求列表页面的**标记优先级**和**优先级**排序顺序中使用。 组标记和项目标记的优先级都在项目级别进行，不能从组标记列表中进行。
 
 在项目标记列表页面上，在标记上加上星号以表明它具有优先级。
 
@@ -108,7 +108,7 @@
 
 在列表中上下拖动已加星标的标记以更改其优先级，列表中位置越高表示优先级较高。
 
-[![Drag to change label priority](/docs/img/labels_drag_priority_v12_1.png)](/docs/img/labels_drag_priority_v12_1.gif)
+[![Drag to change label priority](/docs/img/labels_drag_priority_v12_1.gif)](/docs/img/labels_drag_priority_v12_1.gif)
 
 如果您按`Label priority`排序，将使用以下排序顺序：
 

@@ -1,9 +1,9 @@
 # 项目中批量编辑 Issue 及合并请求
 
-  - [项目中批量编辑 Issue 及合并请求](#bulk-editing-issues-and-merge-requests-at-the-project-level)
+  - [项目中批量编辑 Issue 及合并请求](#项目中批量编辑 Issue 及合并请求)
   - [批量编辑 Issue 及合并请求](#批量编辑-issue-及合并请求)
-    - [项目中批量编辑 Issue](#bulk-edit-issues-at-the-project-level)
-    - [项目中批量编辑合并请求](#bulk-edit-merge-requests-at-the-project-level)
+    - [项目中批量编辑 Issue](#项目中批量编辑-issue)
+    - [项目中批量编辑合并请求](#项目中批量编辑合并请求)
 
 # 批量编辑 Issue 及合并请求[](#批量编辑issue及合并请求 "Permalink")
 

@@ -35,7 +35,7 @@
 3.  再次单击`master`旁边的`+`按钮，然后选择**新建目录**
 4.  将新目录命名为`issue_templates`，并提交到默认分支
 
-要检查它是否正常工作，请[创建一个新 Issue](/docs/user/project/issues/manage#create-a-new-issue)，然后查看是否可以选择描述模板。
+要检查它是否正常工作，请[创建一个新 Issue](/docs/user/project/issues/manage#创建-issue)，然后查看是否可以选择描述模板。
 
 ## 创建合并请求描述模板[](#creating-merge-request-templates "Permalink")
 

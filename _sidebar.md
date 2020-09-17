@@ -28,7 +28,7 @@
     - [代码仓库](docs/user/project/repo)
         - [分支](docs/user/project/repo/branches)
         - [Git属性](docs/user/project/git-attr)
-        - [文件指责](docs/user/project/repo/blame)
+        - [Blame](docs/user/project/repo/blame)
         - [文件历史记录](docs/user/project/repo/history)
         - [保护分支](docs/user/project/protected-branch)
         - [保护Tag](docs/user/project/protected-tag)

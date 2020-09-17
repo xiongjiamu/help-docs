@@ -50,11 +50,11 @@ Web IDE 当前支持以下`.editorconfig`设置：
 
 ## 提交更改[](#commit-changes "Permalink")
 
-进行更改后，单击左下角的" **提交"**按钮以查看已更改文件的列表。
+进行更改后，单击左下角的**提交**按钮以查看已更改文件的列表。
 
 完成更改后，可以添加提交消息，提交更改并直接创建合并请求。如果您没有对所选分支的写访问权，则会看到警告，但仍然可以创建新分支并启动合并请求。
 
-要放弃特定文件中的更改，请在"更改"选项卡中单击该文件上的" **放弃更改"**按钮；要放弃所有更改，请单击更改侧栏右上角的删除图标。
+要放弃特定文件中的更改，请在"更改"选项卡中单击该文件上的**放弃更改**按钮；要放弃所有更改，请单击更改侧栏右上角的删除图标。
 
 ## 查看更改[](#reviewing-changes "Permalink")
 
@@ -72,7 +72,7 @@ Web IDE 当前支持以下`.editorconfig`设置：
 
 ## 编辑Markdown[](#markdown-editing "Permalink")
 
-在 Web IDE 中编辑 Markdown 文件时，可以通过单击文件编辑器上方的" **预览 Markdown"**选项卡来预览更改. Markdown 预览支持[GFM](/docs/user/markdown#gitlab-flavored-markdown-gfm)。
+在 Web IDE 中编辑 Markdown 文件时，可以通过单击文件编辑器上方的**预览 Markdown**选项卡来预览更改. Markdown 预览支持[GFM](/docs/user/markdown#gitlab-flavored-markdown-gfm)。
 
 您还可以通过将任何本地图像直接粘贴到 Markdown 文件中来上传它们，该图像将上传到同一目录，默认情况下命名为`image.png` 。 如果已经存在相同名称的另一个文件，则将数字后缀自动添加到文件名。
 
