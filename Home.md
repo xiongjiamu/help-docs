@@ -28,7 +28,7 @@
 | [讨论](/docs/user/discussions) | 问题，提交和合并请求中的线程，注释和可解决线程 |
 | [截止日期](/docs/user/project/issues/due-date) | 跟踪发行期限|
 | Epics | 跟踪共享主题的问题组|
-| [ Issue ](/docs/user/project/issues) ，包括[机密问题](/docs/user/project/issues/confidential) ，[发布和合并请求模板](/docs/user/project/description-template) ，和[移动的问题](/docs/user/project/issues/manage#moving-issues) | 项目问题并限制对问题的访问，并创建用于提交新问题和合并请求的模板。 此外，在项目之间转移问题|
+| [ Issue ](/docs/user/project/issues) ，包括[机密问题](/docs/user/project/issues/confidential) ，[发布和合并请求模板](/docs/user/project/description-template) ，和[移动问题](/docs/user/project/issues/manage#移动-issue) | 项目问题并限制对问题的访问，并创建用于提交新问题和合并请求的模板。 此外，还可在项目之间转移问题|
 | [标签](/docs/user/project/label) | 分类问题或使用描述性标签合并请求|
 | [里程碑](/docs/user/project/milestone) | 设置发布问题和合并请求的里程碑，并带有可选的截止日期|
 | [看板](/docs/user/project/kanban) | 在 Scrum 或看板上显示问题|
@@ -70,18 +70,18 @@ CODEChina 存储库随附分支工具和访问控制，可为项目和代码的�
 
 | 创建主题-代码仓库 | 描述 |
 | --- | --- |
-| [分支](/docs/user/project/repo/branches)和[默认分支](/docs/user/project/repo/branches#default-branch) | 如何在 CODEChina 中使用分支 |
-| [提交](/docs/user/project/repo#commits) and [署名提交](/docs/user/project/repo/gpg-sign) | 处理提交，并使用 GPG 对您的提交进行签名 |
-| [创建分支](/docs/user/project/repo/web-editor#create-a-new-branch) ， [创建](/docs/user/project/repo/web-editor#create-a-file)并[上传](/docs/user/project/repo/web-editor#upload-a-file)文件，并[创建目录](/docs/user/project/repo/web-editor#create-a-directory) | 创建分支，创建和上传文件以及创建目录|
-| [删除已合并的分支](/docs/user/project/repo/branches#delete-merged-branches) | 合并更改后的批量删除分支|
-| [文件模板](/docs/user/project/repo/web-editor#template-dropdowns) | 通用文件的文件模板 |
-| [文件](/docs/user/project/repo#files) | 文件管理 |
+| [分支](/docs/user/project/repo/branches)和[默认分支](/docs/user/project/repo/branches#默认分支) | 如何在 CODEChina 中使用分支 |
+| [提交](/docs/user/project/repo#提交) and [署名提交](/docs/user/project/repo/gpg-sign) | 处理提交，并使用 GPG 对您的提交进行签名 |
+| [创建分支](/docs/user/project/repo/web-editor#新建分支) ， [创建](/docs/user/project/repo/web-editor#创建文件)并[上传](/docs/user/project/repo/web-editor#上传文件)文件，并[创建目录](/docs/user/project/repo/web-editor#新建目录) | 创建分支，创建和上传文件以及创建目录|
+| [删除已合并的分支](/docs/user/project/repo/branches#删除已合并的分支) | 合并更改后的批量删除分支|
+| [文件模板](/docs/user/project/repo/web-editor#文件模板) | 通用文件的文件模板 |
+| [文件](/docs/user/project/repo#文件) | 文件管理 |
 | Jupyter Notebook 文件 | 对`.ipynb`文件的支持 |
 | [保护分支](/docs/user/project/protected-branch) | 使用受保护的分支 |
 | 推送规则| 对项目推送的附加控制 |
 | [代码仓库](/docs/user/project/repo) | 在网页中管理源代码仓库 |
 | 镜像代码仓库 | 推入或拉出外部的代码仓库 |
-| [处理合并请求](/docs/user/project/repo/web-editor#tips) | 在提交时启动合并请求 |
+| [处理合并请求](/docs/user/project/repo/web-editor#提示) | 在提交时启动合并请求 |
 
 [返回概览](#概览)
 
@@ -91,7 +91,7 @@ CODEChina 存储库随附分支工具和访问控制，可为项目和代码的�
 | --- | --- |
 | 在本地处理合并请求 | 在本地处理合并请求的提示|
 | [Cherry-pick](/docs/user/project/merge-request/cherry-pick) | 对更改进行 Cherry Pick |
-| [Merge request thread resolution](/docs/user/discussions#moving-a-single-thread-to-a-new-issue) | 解析线程，将合并请求中的线程移至问题，并且仅在解决所有线程后才允许合并请求 |
+| [Merge request thread resolution](/docs/user/discussions#将单个讨论转变成-issue) | 解析线程，将合并请求中的线程移至问题，并且仅在解决所有线程后才允许合并请求 |
 | [合并请求](/docs/user/project/merge-request) | 合并请求管理 |
 | [草稿合并请求](/docs/user/project/merge-request/draft) | 防止合并草稿合并请求 |
 
