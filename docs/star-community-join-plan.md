@@ -14,6 +14,15 @@
 5. 导入已有项目，如下图所示，我们支持从 [GitHub](https://github.com/) 上导入，或者直接通过 git 地址来导入
 ![](img/code-china-6.png)
 
+# 代码仓库同步（内测中）
+代码定期同步功能，可以解决直接访问 GitHub 速度非常慢的痛点。用户可以简单地通过在组织或者具体项目上设置 mirror 同步的功能，就可以方便地将代码从 GitHub 上同步到 [CodeChina](https://codechina.csdn.net/) 的效果。
+
+注意，该功能的使用需要当入驻企业通过认证（提供企业以及运营人员相关信息）后，才能开启。
+
 # 当前受邀入驻的企业包括：
-* [阿里巴巴](https://codechina.csdn.net/alibaba)
+* [JEECG开源社区](https://codechina.csdn.net/jeecg)
+* [Mozi](https://codechina.csdn.net/mozi)
+* [北京旷视科技有限公司](https://codechina.csdn.net/megvii)
+* [DCloud](https://codechina.csdn.net/dcloud/uni-app)
+* [apache](https://codechina.csdn.net/apache/)
 * 敬请期待
