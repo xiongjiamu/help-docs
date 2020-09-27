@@ -38,4 +38,5 @@
 * [北京旷视科技有限公司](https://codechina.csdn.net/megvii)
 * [DCloud](https://codechina.csdn.net/dcloud/uni-app)
 * [apache](https://codechina.csdn.net/apache/)
+* [阿里巴巴](https://codechina.csdn.net/openanolis)
 * 敬请期待
