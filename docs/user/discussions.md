@@ -95,7 +95,7 @@
 
 导航到您的项目的设置页面，选中**使用推送更改的行上**的**自动解析合并请求差异线程**复选框，然后单击**保存**以使更改生效.
 
-[![Automatically resolve merge request diff threads when they become outdated](/docs/img/a283d966822ac6a760d1a650273fbb3b.png)](/docs/img/automatically_resolve_outdated_discussions.png)
+[![Automatically resolve merge request diff threads when they become outdated](/docs/img/automatically_resolve_outdated_discussions.png)](/docs/img/automatically_resolve_outdated_discussions.png)
 
 从现在开始，如果推送使 diff 部分过时，默认情况下将解决 diff 上的所有线程. 不变的线上线程和顶级可解析线程不会自动解析.
 
