@@ -39,4 +39,5 @@
 * [DCloud](https://codechina.csdn.net/dcloud/uni-app)
 * [apache](https://codechina.csdn.net/apache/)
 * [阿里巴巴](https://codechina.csdn.net/openanolis)
+* [百度飞浆](https://codechina.csdn.net/paddlepaddle)
 * 敬请期待
