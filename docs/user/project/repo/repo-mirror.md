@@ -13,7 +13,7 @@
 *   推送：用于将 CODEChina 仓库镜像到另一个位置
 *   拉取：用于将其他位置的仓库镜像到 CODEChina
 
-至少具有 [Developer](/docs/user/permissions.md) 权限的用户也可以强制立即更新，除非：
+至少具有 [Developer](/docs/user/permissions) 权限的用户也可以强制立即更新，除非：
 
 *   镜像已被更新
 *   距离上次更新还未超过 5 分钟
