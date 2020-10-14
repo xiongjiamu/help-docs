@@ -99,7 +99,7 @@
 *   在一定时间内自动拉取
 *   启动[强制更新](#强制更新)时
 
-**警告：**如果您确实在 CODEChina 仓库中更新了分支，则该分支将与上游分叉，并且 CODEChina 将不再自动更新该分支以防止丢失任何更改。另请注意，上游仓库中已删除的分支和标签将不会反映在 CODEChina 的仓库中。
+**警告**：如果您确实在 CODEChina 仓库中更新了分支，则该分支将与上游分叉，并且 CODEChina 将不再自动更新该分支以防止丢失任何更改。另请注意，上游仓库中已删除的分支和标签将不会反映在 CODEChina 的仓库中。
 
 ### 工作机制[](#how-it-works "Permalink")
 
@@ -132,7 +132,7 @@ SSH 身份验证是相互的：
 1.  导航到项目的**项目设置>仓库，**然后展开**镜像仓库**部分
 2.  输入`ssh://` URL 进行镜像
 
-**注意：**目前不支持 SCP 样式的 URL（即`git@example.com:namespace/project.git`，对于这种 URL 格式，需要改写为 `ssh://example.com/namespace/project.git` 的格式)
+**注意**：目前不支持 SCP 样式的 URL（即`git@example.com:namespace/project.git`，对于这种 URL 格式，需要改写为 `ssh://example.com/namespace/project.git` 的格式)
 
 输入 SSH URL 后将在页面上添加两个按钮：
 
@@ -169,7 +169,7 @@ SSH 身份验证是相互的：
 
 如果您需要更改密钥，则可以删除并重新添加镜像以生成新密钥。您必须使用新密钥更新另一个仓库，以保持镜像运行。
 
-**注意：**生成的密钥存储在 CODEChina 数据库中，而不存储在文件系统中。因此，无法在 pre-recieve hook 中使用针对镜像的 SSH 公钥身份验证。
+**注意**：生成的密钥存储在 CODEChina 数据库中，而不存储在文件系统中。因此，无法在 pre-recieve hook 中使用针对镜像的 SSH 公钥身份验证。
 
 ### 覆盖分叉分支[](#overwrite-diverged-branches-starter "Permalink")
 
