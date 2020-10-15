@@ -30,7 +30,7 @@
         - [Git属性](docs/user/project/git-attr)
         - [Blame](docs/user/project/repo/blame)
         - [文件历史记录](docs/user/project/repo/history)
-       <!-- - [仓库镜像](docs/user/project/repo/repo-mirror) -->
+        - [仓库镜像](docs/user/project/repo/repo-mirror)
         - [保护分支](docs/user/project/protected-branch)
         - [保护Tag](docs/user/project/protected-tag)
         - [减少仓库大小](docs/user/project/repo/reduce-repo-size)
