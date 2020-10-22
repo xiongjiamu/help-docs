@@ -30,8 +30,8 @@
 
 # 联系人
 如果您对上述流程有任何问题，都可以通过下面的方式来联系我们：
-* 邮件 zhaoxj@csdn.net
-* 微信 361981269
+* 邮件 sushuai@csdn.net
+* 微信 MuskSu
 
 # 当前受邀入驻的企业包括：
 * [JEECG开源社区](https://codechina.csdn.net/jeecg)
