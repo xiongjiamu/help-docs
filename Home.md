@@ -61,7 +61,7 @@ CODE CHINA 存储库随附分支工具和访问控制，可为项目和代码的
 | Issue 分析 | 检查每月创建了多少个问题|
 | [项目](/docs/user/project) ，包括项目访问和[设置](/docs/user/project/settings) | 托管源代码，并控制项目的可见性和设置配置。|
 | [搜索](/docs/img/add_user_search_people.png) | 搜索问题，合并请求，项目，组和待办事项。|
-| [Web IDE](/docs/user/project/webidel) | 在 WebIDE 中编辑文件|
+| [Web IDE](/docs/user/project/webide) | 在 WebIDE 中编辑文件|
 | [Wikis](/docs/user/project/wiki) | 使用内置的 Wiki 来管理您的文档|
 
 [返回概览](#概览)
