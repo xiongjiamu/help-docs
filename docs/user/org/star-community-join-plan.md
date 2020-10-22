@@ -1,10 +1,10 @@
 # 项目入驻申请
 
-[CSDN](https://www.csdn.net/) 旗下的代码托管平台 [CodeChina](https://codechina.csdn.net/) 邀请业内知名的开源公司、开源社区入驻，我们会秉承取之开源、用于开源的原则
+[CSDN](https://www.csdn.net/) 旗下的代码托管平台 [CODE CHINA](https://codechina.csdn.net/) 邀请业内知名的开源公司、开源社区入驻，我们会秉承取之开源、用于开源的原则
 为每一位开源贡献者提供优质服务。
 
 # 入驻权益
-凡入驻 [CodeChina](https://codechina.csdn.net/) 的企业（社区）将会享受到下面的权益：
+凡入驻 [CODE CHINA](https://codechina.csdn.net/) 的企业（社区）将会享受到下面的权益：
 * 企业认证标示（内测中）
 * 优先参与由 CSDN 推动的开源加速计划
 * 优先进入到开源动态报告中
@@ -18,7 +18,7 @@
 2. 访问 https://codechina.csdn.net 并登陆，此时会跳转到 CSDN 登录页面
 ![](/docs/img/code-china-2.png)
 ![](/docs/img/code-china-3.png)
-3. 登录成功后，会返回到 [CodeChina](https://codechina.csdn.net/) 首页
+3. 登录成功后，会返回到 [CODE CHINA](https://codechina.csdn.net/) 首页
 4. 在右上角点击"➕"，并选择“创建组织”，填入名称等信息即可创建
 ![](/docs/img/code-china-4.png)
 ![](/docs/img/code-china-5.png)
@@ -26,7 +26,7 @@
 ![](/docs/img/code-china-6.png)
 
 # 代码仓库同步（内测中）
-代码定期同步功能，可以解决直接访问 GitHub 速度非常慢的痛点。用户可以简单地通过在组织或者具体项目上设置 mirror 同步的功能，就可以方便地将代码从 GitHub 上同步到 [CodeChina](https://codechina.csdn.net/) 的效果。
+代码定期同步功能，可以解决直接访问 GitHub 速度非常慢的痛点。用户可以简单地通过在组织或者具体项目上设置 mirror 同步的功能，就可以方便地将代码从 GitHub 上同步到 [CODE CHINA](https://codechina.csdn.net/) 的效果。
 
 注意，该功能的使用需要当入驻企业通过认证（提供企业以及运营人员相关信息）后，才能开启。
 
