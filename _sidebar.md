@@ -3,7 +3,7 @@
 - [首页](home)
 - [组织](docs/user/org)
     - [子组织](docs/user/org/sub_org)
-    - [申请入驻](/docs/user/org/star-community-join-plan.md)
+    - [申请入驻](/docs/user/org/star-community-join-plan)
 - [项目](docs/user/project)
     - [徽章](docs/user/project/badges)
     - [批量编辑](docs/user/project/bulk-edit)
