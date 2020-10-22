@@ -30,8 +30,8 @@ git blame README
 
 ```markdown
 fb0fc7d6 (Someone     2019-11-07 22:21:22 +0100   1)
-^764ca75 (Someone else              2019-10-05 23:40:24 -0600   2) # CODEChina Documentation
+^764ca75 (Someone else              2019-10-05 23:40:24 -0600   2) # CODE CHINA Documentation
 ^764ca75 (Someone else              2019-10-05 23:40:24 -0600   3)
-0e62ed6d (Someone                   2019-11-26 21:44:53 +0000   4) This project hosts the repository used to generate the CODEChina
+0e62ed6d (Someone                   2019-11-26 21:44:53 +0000   4) This project hosts the repository used to generate the CODE CHINA
 0e62ed6d (Someone else              2019-11-26 21:44:53 +0000   5) documentation website 
 ```

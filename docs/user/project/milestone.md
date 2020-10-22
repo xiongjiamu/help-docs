@@ -2,7 +2,7 @@
 
 ## 概览[](#overview "Permalink")
 
-CODEChina 中的里程碑是一种跟踪 Issue 及合并请求并在一定时期内实现更广泛目标的方法。
+CODE CHINA 中的里程碑是一种跟踪 Issue 及合并请求并在一定时期内实现更广泛目标的方法。
 
 里程碑使您可以将 Isuue 及合并请求组织到一个紧密联系的组中，并带有一个可选的开始日期和一个可选的截止日期。
 
@@ -22,7 +22,7 @@ CODEChina 中的里程碑是一种跟踪 Issue 及合并请求并在一定时期
 2.  将里程碑标题设置为您的发行版，例如`Version 9.4` 
 3.  通过关联问题右侧的期望里程碑，将问题添加到您的发行中
 
-此外，您可以将里程碑与 CODEChina 的[Releases 功能](/docs/user/project/releases#associate-milestones-with-a-release)集成.
+此外，您可以将里程碑与 CODE CHINA 的[Releases 功能](/docs/user/project/releases#associate-milestones-with-a-release)集成.
 
 ## 项目里程碑和组织里程碑[](#project-milestones-and-group-milestones "Permalink")
 

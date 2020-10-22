@@ -57,7 +57,7 @@
 
 ## 新建项目[](#新建项目 "Permalink")
 
-了解如何在 CODEChina 中[创建一个新项目](/docs/basic/create-project) 。
+了解如何在 CODE CHINA 中[创建一个新项目](/docs/basic/create-project) 。
 
 ### Fork 项目[](#fork项目 "Permalink")
 

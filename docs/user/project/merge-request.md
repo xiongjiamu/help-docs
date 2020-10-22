@@ -57,7 +57,7 @@ MR 还包含导航选项卡，从中可以查看线程上正在进行的讨论�
 
 ## 合并请求认证[](#authorization-for-merge-requests "Permalink")
 
-使用 CODEChina 进行合并请求的主要方法有两种：
+使用 CODE CHINA 进行合并请求的主要方法有两种：
 
 1.  在单个存储库中使用[受保护的分支](/docs/user/project/protected-branch)
 2.  使用权威项目的分支

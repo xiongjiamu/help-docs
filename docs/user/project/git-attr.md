@@ -1,6 +1,6 @@
 # 自定义Git属性[](#自定义Git属性 "Permalink")
 
-CODEChina 支持定义自定义[Git 属性](https://git-scm.com/docs/gitattributes)，例如将哪些文件视为二进制文件，以及将哪种语言用于语法突出显示差异。
+CODE CHINA 支持定义自定义[Git 属性](https://git-scm.com/docs/gitattributes)，例如将哪些文件视为二进制文件，以及将哪种语言用于语法突出显示差异。
 
 要定义这些属性，在代码仓库的根目录中创建一个名为`.gitattributes`的文件，并将其推送到项目的默认分支即可。
 

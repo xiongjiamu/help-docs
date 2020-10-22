@@ -1,6 +1,6 @@
 # 代码仓库[](#repository "Permalink")
 
-[代码仓库](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)是用于将代码库存储在 CODEChina 中并通过版本控制对其进行更改的存储库。代码仓库是[项目](/docs/user/project)的一部分，它具有许多其他功能。 
+[代码仓库](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)是用于将代码库存储在 CODE CHINA 中并通过版本控制对其进行更改的存储库。代码仓库是[项目](/docs/user/project)的一部分，它具有许多其他功能。 
 
 ## 新建一个代码仓库[](#create-a-repository "Permalink")
 
@@ -8,15 +8,15 @@
 
 创建新项目后，您可以通过界面或通过命令行添加新文件， 要从命令行添加文件，请遵循创建新项目时在屏幕上显示的说明。
 
-> **重要提示：**出于安全原因，强烈建议您在使用命令行时[通过 SSH 与 CODEChina 连接](/docs/ssh) 。
+> **重要提示：**出于安全原因，强烈建议您在使用命令行时[通过 SSH 与 CODE CHINA 连接](/docs/ssh) 。
 
 ## 文件[](#files "Permalink")
 
-在 CODEChina 上我们使用代码仓库来存储您的文件，您将在代码仓库的文件树中在文件名旁边看到一个与其扩展名称想对应的图标。
+在 CODE CHINA 上我们使用代码仓库来存储您的文件，您将在代码仓库的文件树中在文件名旁边看到一个与其扩展名称想对应的图标。
 
 ### 新建和编辑文件[](#create-and-edit-files "Permalink")
 
-通过将文件推送到 CODEChina，您就可以将代码库托管在代码仓库中。您可以使用用户界面也可以通过命令行将本地计算机与我们相连。
+通过将文件推送到 CODE CHINA，您就可以将代码库托管在代码仓库中。您可以使用用户界面也可以通过命令行将本地计算机与我们相连。
 
 **从用户界面：**
 

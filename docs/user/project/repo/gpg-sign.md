@@ -1,18 +1,18 @@
 # GPG签名提交[](#gpg-sign "Permalink")
 
-您可以使用 GPG 密钥对在 CODEChina 代码仓库中的 Git 提交进行签名。 如果可以验证提交者的身份，则已签名的提交将标记为 **已验证**，为了验证提交者的身份，CODEChina 需要他们的公共 GPG 密钥。
+您可以使用 GPG 密钥对在 CODE CHINA 代码仓库中的 Git 提交进行签名。 如果可以验证提交者的身份，则已签名的提交将标记为 **已验证**，为了验证提交者的身份，CODE CHINA 需要他们的公共 GPG 密钥。
 
 目前尚不支持通过 GPG 验证标签。
 
 ## GPG 签名[](#how-we-handles-gpg "Permalink")
 
-CODEChina 使用其自己的密钥环来验证 GPG 签名，它不访问任何公钥服务器。
+CODE CHINA 使用其自己的密钥环来验证 GPG 签名，它不访问任何公钥服务器。
 
-对于要由 CODEChina 验证的提交：
+对于要由 CODE CHINA 验证的提交：
 
 *   提交者必须具有 GPG 公钥/私钥对
-*   提交者的公钥必须已上传到其 CODEChina 帐户
-*   GPG 密钥中的一封电子邮件必须与提交者在 CODEChina 中使用的**经过验证的**电子邮件地址匹配
+*   提交者的公钥必须已上传到其 CODE CHINA 帐户
+*   GPG 密钥中的一封电子邮件必须与提交者在 CODE CHINA 中使用的**经过验证的**电子邮件地址匹配
 *   提交者的电子邮件地址必须与 GPG 密钥中验证的电子邮件地址匹配
 
 ## 生成 GPG 密钥[](#generating-a-gpg-key "Permalink")
@@ -65,7 +65,7 @@ CODEChina 使用其自己的密钥环来验证 GPG 签名，它不访问任何�
     Is this correct? (y/N) y 
     ```
 
-7.  接下来输入您的真实姓名，与此密钥关联的电子邮件地址（应与您在 CODEChina 中使用的经过验证的电子邮件地址匹配）和可选注释（按`Enter`跳过）：
+7.  接下来输入您的真实姓名，与此密钥关联的电子邮件地址（应与您在 CODE CHINA 中使用的经过验证的电子邮件地址匹配）和可选注释（按`Enter`跳过）：
 
     ```markdown
     GnuPG needs to construct a user ID to identify your key.
@@ -115,7 +115,7 @@ CODEChina 使用其自己的密钥环来验证 GPG 签名，它不访问任何�
 
 2.  点击**GPG 密钥**，然后将您的*公共*密钥粘贴到"密钥"框中
 
-3.  最后，单击**添加键**将其添加到 CODEChina，您将能够看到其指纹，相应的电子邮件地址和创建日期
+3.  最后，单击**添加键**将其添加到 CODE CHINA，您将能够看到其指纹，相应的电子邮件地址和创建日期
 
 ## 在 Git 中使用 GPG 密钥[](#associating-your-gpg-key-with-git "Permalink")
 
@@ -163,7 +163,7 @@ CODEChina 使用其自己的密钥环来验证 GPG 签名，它不访问任何�
     ```
 
 2.  按提示输入 GPG 密钥的密码
-3.  推送至 CODEChina 并检查您的提交[是否已通过验证](#验证提交) 
+3.  推送至 CODE CHINA 并检查您的提交[是否已通过验证](#验证提交) 
 
 如果您不想在每次提交时都键入`-S`标志，则可以告诉 Git 自动签名您的提交：
 

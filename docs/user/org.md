@@ -1,6 +1,6 @@
 # 组织[](#组织 "Permalink")
 
-通过 CODEChina 的组织，您可以：
+通过 CODE CHINA 的组织，您可以：
 
 *   将相关项目组装在一起
 *   授予成员一次访问多个项目的权限
@@ -39,7 +39,7 @@
 
 ## 命名空间[](#命名空间 "Permalink")
 
-在 CODEChina 中，命名空间将会是用户名称、组织名称或子组名的唯一名称。
+在 CODE CHINA 中，命名空间将会是用户名称、组织名称或子组名的唯一名称。
 
 *   `https://codechina.csdn.net/username`
 *   `https://codechina.csdn.net/groupname`
@@ -47,7 +47,7 @@
 
 例如，假设有一个名为 Miykael 的用户：
 
-1.  Miykael 在 CODEChina 上使用用户名`Miykael`创建了一个帐户； 他们的个人资料将在`https://codechina.csdn.net/miykael`下访问
+1.  Miykael 在 CODE CHINA 上使用用户名`Miykael`创建了一个帐户； 他们的个人资料将在`https://codechina.csdn.net/miykael`下访问
 2.  Miykael 为他们的团队创建了一个组织，名称为`csdn-team` ； 该组织及其项目将在`https://codechina.csdn.net/csdn-team`下访问
 3.  CSDN 创建了一个名为`coding`的子组织 ; 该子组织及其项目将在`https://codechina.csdn.net/csdn-team/coding`下访问
 
@@ -57,7 +57,7 @@
 *   CSDN通过`@csdn-team`提及了团队中的每个人
 *   CSDN只提及`@csdn-team/coding`
 
-> 注：出于系统安全以及知识产权、商标保护等因素，我们预留了一部分namespace，如果您的用户名与预留这部分namespace有冲突，系统将会自动对您在CODEChina中的namespace进行调整。
+> 注：出于系统安全以及知识产权、商标保护等因素，我们预留了一部分namespace，如果您的用户名与预留这部分namespace有冲突，系统将会自动对您在CODE CHINA中的namespace进行调整。
 
 ## 组织内的Issue及合并请求[](#组织内的Issue及合并请求 "Permalink")
 

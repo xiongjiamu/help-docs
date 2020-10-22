@@ -2,12 +2,12 @@
 
 ## 概览[](#概览 "Permalink")
 
-欢迎您使用CODEChina，如果您是 Github 或 GitLab 的初级用户，我们建议您从查看本文档开始学习如何使用 CODEChina。如果您熟悉以上两个产品中的一个或多个，您可以直接开始 CODEChina 产品，在产品中我们也会为您设置帮助提示，您可以随时回来查看我们的产品文档。
+欢迎您使用CODE CHINA，如果您是 Github 或 GitLab 的初级用户，我们建议您从查看本文档开始学习如何使用 CODE CHINA。如果您熟悉以上两个产品中的一个或多个，您可以直接开始 CODE CHINA 产品，在产品中我们也会为您设置帮助提示，您可以随时回来查看我们的产品文档。
 
 | 基础入门 | 基本入门 |
 | --- | --- |
-| [**用户文件**](/docs/user)熟悉CODEChina 中的功能和概念. |[**是 Git 和 GitLab/GitHub 的新手吗？**](#刚开始使用gitcodechinagitlabgithub)我们有资源可以帮助您入门 |
-| [**为 CODEChina 做贡献**](#为codechina开源做贡献)为CODEChina开源贡献力量！ | [**从另一个平台进入 CODEChina？**](#从另一个平台进入到-codechina)请查阅我们的便捷指南 |
+| [**用户文件**](/docs/user)熟悉CODE CHINA 中的功能和概念. |[**是 Git 和 GitLab/GitHub 的新手吗？**](#刚开始使用gitcodechinagitlabgithub)我们有资源可以帮助您入门 |
+| [**为 CODE CHINA 做贡献**](#为codechina开源做贡献)为CODE CHINA开源贡献力量！ | [**从另一个平台进入 CODE CHINA？**](#从另一个平台进入到-codechina)请查阅我们的便捷指南 |
 
 
 ## 热门话题[](#热门话题 "Permalink")
@@ -16,9 +16,9 @@
 
 ### 计划[](#计划 "Permalink")
 
-无论您使用 Waterfall，敏捷还是会话开发，CODEChina 均可简化您的协作工作流程。
+无论您使用 Waterfall，敏捷还是会话开发，CODE CHINA 均可简化您的协作工作流程。
 
-使用 CODEChina 灵活的项目管理工具可视化，确定优先级，协调和跟踪进度。
+使用 CODE CHINA 灵活的项目管理工具可视化，确定优先级，协调和跟踪进度。
 
 以下文档与 DevOps **计划**阶段有关：
 
@@ -44,7 +44,7 @@
 
 将源代码整合到一个易于管理和控制的[分布式版本控制系统中](https://en.wikipedia.org/wiki/Distributed_version_control) ，而不会中断您的工作流程。
 
-CODEChina 存储库随附分支工具和访问控制，可为项目和代码的协作提供可扩展的单一事实来源。
+CODE CHINA 存储库随附分支工具和访问控制，可为项目和代码的协作提供可扩展的单一事实来源。
 
 以下文档与 DevOps **新建**阶段有关：
 
@@ -52,7 +52,7 @@ CODEChina 存储库随附分支工具和访问控制，可为项目和代码的�
 
 | 创建主题-项目和组 | 描述 |
 | --- | --- |
-| 全局搜索 | 利用 Elasticsearch 在整个 CODEChina 实例上进行更快，更高级的代码搜索|
+| 全局搜索 | 利用 Elasticsearch 在整个 CODE CHINA 实例上进行更快，更高级的代码搜索|
 | 语法检索 | 使用高级查询获得更具针对性的搜索结果|
 | Contribution analytics | 请参阅小组贡献者的详细统计信息|
 | [创建](/docs/basic/create-project)并 fork 项目，以及[导入项目](/docs/user/project/import) | 创建，复制和移动项目 |
@@ -70,7 +70,7 @@ CODEChina 存储库随附分支工具和访问控制，可为项目和代码的�
 
 | 创建主题-代码仓库 | 描述 |
 | --- | --- |
-| [分支](/docs/user/project/repo/branches)和[默认分支](/docs/user/project/repo/branches#默认分支) | 如何在 CODEChina 中使用分支 |
+| [分支](/docs/user/project/repo/branches)和[默认分支](/docs/user/project/repo/branches#默认分支) | 如何在 CODE CHINA 中使用分支 |
 | [提交](/docs/user/project/repo#提交) and [署名提交](/docs/user/project/repo/gpg-sign) | 处理提交，并使用 GPG 对您的提交进行签名 |
 | [创建分支](/docs/user/project/repo/web-editor#新建分支) ， [创建](/docs/user/project/repo/web-editor#创建文件)并[上传](/docs/user/project/repo/web-editor#上传文件)文件，并[创建目录](/docs/user/project/repo/web-editor#新建目录) | 创建分支，创建和上传文件以及创建目录|
 | [删除已合并的分支](/docs/user/project/repo/branches#删除已合并的分支) | 合并更改后的批量删除分支|
@@ -98,13 +98,13 @@ CODEChina 存储库随附分支工具和访问控制，可为项目和代码的�
 [返回概览](#概览)
 
 
-## 刚开始使用Git/CODEChina/GitLab/Github？[](#刚开始使用git吗 "Permalink")
+## 刚开始使用Git/CODE CHINA/GitLab/Github？[](#刚开始使用git吗 "Permalink")
 
 使用新系统可能让您觉得难以入手，我们有以下文档可快速提升您的相关知识：
 
 | 主题 | 描述 |
 | --- | --- |
-| Basics guides | 开始在命令行和 CODEChina 上工作 |
+| Basics guides | 开始在命令行和 CODE CHINA 上工作 |
 | Workflow overview | 利用最佳的工作流程增强您的工作流程 |
 | [Markdown](/docs/user/markdown) | 高级格式化系统（Markdown） |
 
@@ -122,9 +122,9 @@ CODEChina 存储库随附分支工具和访问控制，可为项目和代码的�
 
 [返回概览](#概览)
 
-### Git 和 CODEChina[](#Git和CODEChina "Permalink")
+### Git 和 CODE CHINA[](#Git和CODE CHINA "Permalink")
 
-了解有关使用 Git 以及将 Git 与 CODEChina 结合使用的更多信息：
+了解有关使用 Git 以及将 Git 与 CODE CHINA 结合使用的更多信息：
 
 | 主题 | 描述 |
 | --- | --- |
@@ -134,21 +134,21 @@ CODEChina 存储库随附分支工具和访问控制，可为项目和代码的�
 
 [返回概览](#概览)
 
-## 从另一个平台进入到 CODEChina？[](#从另一个平台进入到codechina "Permalink")
+## 从另一个平台进入到 CODE CHINA？[](#从另一个平台进入到codechina "Permalink")
 
-如果您是从另一个平台进入 CODEChina，您会发现以下有用信息：
+如果您是从另一个平台进入 CODE CHINA，您会发现以下有用信息：
 
 | 主题 | 描述 |
 | --- | --- |
 | [导入项目](/docs/user/project/import) | 从 GitHub 和 SVN 导入项目 |
-| 从SVN迁移 | 将 SVN 存储库转换为 Git 和 CODEChina |
+| 从SVN迁移 | 将 SVN 存储库转换为 Git 和 CODE CHINA |
 
 [返回概览](#概览)
 
 
-## 为CODEChina开源做贡献[](#为codehina开源做贡献 "Permalink")
+## 为CODE CHINA开源做贡献[](#为codehina开源做贡献 "Permalink")
 
-CODEChina 是开源的，您可以通过以下方式为我们的开源社区做出贡献：
+CODE CHINA 是开源的，您可以通过以下方式为我们的开源社区做出贡献：
 
 
 | 主题 | 描述 |

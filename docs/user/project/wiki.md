@@ -40,7 +40,7 @@ Wiki 页面作为文件存储在 Git 代码仓库中，因此某些字符具有�
 
 ### 文件及目录的长度限制[](#length-restrictions-for-file-and-directory-names "Permalink")
 
-许多常见的文件系统[的文件名和目录名限制为 255 个字节](https://en.wikipedia.org/wiki/Comparison_of_file_systems#Limits) ，尽管 Git 和 CODEChina 都支持超出这些限制的路径，但是它们的存在使这些文件系统上的用户无法在本地检出 Wiki 存储库。
+许多常见的文件系统[的文件名和目录名限制为 255 个字节](https://en.wikipedia.org/wiki/Comparison_of_file_systems#Limits) ，尽管 Git 和 CODE CHINA 都支持超出这些限制的路径，但是它们的存在使这些文件系统上的用户无法在本地检出 Wiki 存储库。
 
 为了避免这种情况，通过界面和 API 编辑页面时会强制执行以下限制：
 
@@ -100,7 +100,7 @@ Wiki 页面随时间的变化记录在 Wiki 的 Git 存储库中，您可以通�
 
 在右侧栏上，单击**克隆存储库"，**然后按照屏幕上的说明进行操作。
 
-根据您要使用的标记语言，您在本地添加到 Wiki 的文件必须具有以下受支持的扩展名之一，否则当推送到 CODEChina 时将不会显示这些文件：
+根据您要使用的标记语言，您在本地添加到 Wiki 的文件必须具有以下受支持的扩展名之一，否则当推送到 CODE CHINA 时将不会显示这些文件：
 
 *   Markdown 扩展名： `own` ， `.mkd` ， `.mkdn` ， `` ， `.markdown` 
 *   AsciiDoc 扩展名： `.adoc` ， `.ad` ， `.asciidoc` 

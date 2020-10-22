@@ -20,13 +20,13 @@
 
 ## 工作方式[](#how-it-works "Permalink")
 
-看板功能通过将 CODEChina 现有的[发行跟踪功能](/docs/user/project/issues#issue-列表)和[标签](/docs/user/project/label)用作 Scrum 板的列表而建立。
+看板功能通过将 CODE CHINA 现有的[发行跟踪功能](/docs/user/project/issues#issue-列表)和[标签](/docs/user/project/label)用作 Scrum 板的列表而建立。
 
 使用看板，您可以对 Issue 有不同的看法，同时保持在问题跟踪器中看到的相同过滤和排序功能。看板基于其项目的标签结构，因此它使用相同的描述性标签来指示在板上的位置，从而在整个开发生命周期中保持一致性。
 
 问题板向您显示团队正在处理的问题，分配给每个人的问题以及这些问题在工作流中的位置。
 
-从创建 Issue，托管代码，执行审阅，构建，测试和部署这些您都可以再一个平台完成，看板可帮助您在 CODEChina 中可视化和管理整个过程。
+从创建 Issue，托管代码，执行审阅，构建，测试和部署这些您都可以再一个平台完成，看板可帮助您在 CODE CHINA 中可视化和管理整个过程。
 
 ## 用户示例[](#use-cases "Permalink")
 
@@ -34,7 +34,7 @@
 
 ### 单个看板示例[](#use-cases-for-a-single-issue-board "Permalink")
 
-借助 CODEChina 工作流程，您可以讨论 Issue 中的提案，使用标签对其进行分类，然后在其中使用问题委员会进行组织并确定优先级。
+借助 CODE CHINA 工作流程，您可以讨论 Issue 中的提案，使用标签对其进行分类，然后在其中使用问题委员会进行组织并确定优先级。
 
 例如，让我们考虑以下简化的开发工作流程：
 

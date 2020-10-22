@@ -1,8 +1,8 @@
 # 用户文档[](#user "Permalink")
 
-欢迎您开始使用CODEChina作为您的项目/开源项目代码托管平台！
+欢迎您开始使用CODE CHINA作为您的项目/开源项目代码托管平台！
 
-CODEChina 是一个基于 Git 的平台，它集成了许多用于软件开发和部署以及项目管理的基本工具：
+CODE CHINA 是一个基于 Git 的平台，它集成了许多用于软件开发和部署以及项目管理的基本工具：
 
 *   通过版本控制在代码仓库中托管代码
 *   使用功能齐全的[Issues](/docs/user/project/issues#issue-列表)跟踪有关新功能开发、错误报告及反馈的建议
@@ -55,8 +55,8 @@ CODEChina 是一个基于 Git 的平台，它集成了许多用于软件开发�
 
 ## 快捷键[](#shortcutkey "Permalink")
 
-CODEChina中支持许多[快捷键](/docs/user/shortcutkey) ，帮助您更方便的在页面之间进行切换、更快地完成任务。
+CODE CHINA中支持许多[快捷键](/docs/user/shortcutkey) ，帮助您更方便的在页面之间进行切换、更快地完成任务。
 
 ## Webhooks[](#webhooks "Permalink")
 
-配置webhook]以侦听特定事件，例如推送，问题或合并请求。CODEChina会将相关数据通过 POST 请求发送到 webhook 中配置的 URL 中。
+配置webhook]以侦听特定事件，例如推送，问题或合并请求。CODE CHINA会将相关数据通过 POST 请求发送到 webhook 中配置的 URL 中。

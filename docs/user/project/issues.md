@@ -4,7 +4,7 @@
 
 ## 概览[](#overview "Permalink")
 
-CODEChina Issue 跟踪器是用于协作开发想法，解决问题和计划工作的高级工具。
+CODE CHINA Issue 跟踪器是用于协作开发想法，解决问题和计划工作的高级工具。
 
 通过 Issue，可以在以下各项之间，在实施之前和期间共享和讨论提案：
 

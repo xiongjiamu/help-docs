@@ -57,7 +57,7 @@
     git remote add origin https://codechina.csdn.net/<namespace>/<project_name>.git 
     ```
 
-5.  强制推送更改以覆盖 CODEChina 上的所有分支：
+5.  强制推送更改以覆盖 CODE CHINA 上的所有分支：
 
     ```markdown
     git push origin --force --all 
@@ -65,7 +65,7 @@
 
     [受保护的分支](/docs/user/project/protected-branch)将导致此操作失败。要继续的话，您必须删除分支保护，推送，然后重新启用受保护的分支。
 
-6.  要从标记的 Release 中删除大文件，请强制将更改推送到CODEChina上的所有标记：
+6.  要从标记的 Release 中删除大文件，请强制将更改推送到CODE CHINA上的所有标记：
 
     ```markdown
     git push origin --force --tags 
@@ -79,9 +79,9 @@
 
 ## 在代码仓库中净化文件[](#purge-files-from-repo-storage "Permalink")
 
-要减少代码仓库的大小，必须删除 CODEChina 内部引用包含大文件的提交。在完成这些步骤之前，请[从存储库历史记录中清除文件](#purge-files-from-repository-history) .
+要减少代码仓库的大小，必须删除 CODE CHINA 内部引用包含大文件的提交。在完成这些步骤之前，请[从存储库历史记录中清除文件](#purge-files-from-repository-history) .
 
-除了[分支](/docs/user/project/repo/branches)和标签（这是一种 Git 引用）之外，系统还会自动创建其他引用，[代码仓库清理](#repository-cleanup)可用于从 CODEChina 中删除它们.
+除了[分支](/docs/user/project/repo/branches)和标签（这是一种 Git 引用）之外，系统还会自动创建其他引用，[代码仓库清理](#repository-cleanup)可用于从 CODE CHINA 中删除它们.
 
 以下为内部参考文献：
 
@@ -133,7 +133,7 @@
 
 ## 代码仓库清理[](#repository-cleanup "Permalink")
 
-代码仓库清理允许您上传对象的文本文件，并且 CODEChina 将删除对这些对象的内部 Git 引用。您可以使用[`git filter-repo`](https://github.com/newren/git-filter-repo)生成对象列表（在`commit-map`文件中），该对象列表可与存储库清理一起使用。
+代码仓库清理允许您上传对象的文本文件，并且 CODE CHINA 将删除对这些对象的内部 Git 引用。您可以使用[`git filter-repo`](https://github.com/newren/git-filter-repo)生成对象列表（在`commit-map`文件中），该对象列表可与存储库清理一起使用。
 
 要清理代码仓库：
 
@@ -153,7 +153,7 @@
 
 *   项目统计信息已缓存，您可能需要等待 5 到 10 分钟才能看到存储利用率下降
 *   Housekeeping 会精简2周以上的松散物品，这意味着在最近 2 周内添加的对象将不会被立即删除
-*   此过程将从 CODEChina 的缓存和数据库中删除一些重写提交的副本，但是覆盖范围仍然存在许多空白，并且某些副本可能会无限期地存在
+*   此过程将从 CODE CHINA 的缓存和数据库中删除一些重写提交的副本，但是覆盖范围仍然存在许多空白，并且某些副本可能会无限期地存在
 
 ## 仓库大小限制[](#storage-limits "Permalink")
 

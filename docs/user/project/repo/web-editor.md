@@ -1,6 +1,6 @@
 # 文件编辑[](#文件编辑 "Permalink")
 
-有时，直接从 CODEChina 界面进行快速更改要比克隆项目并使用 Gi​​t 命令行工具更容易。接下来，我们重点介绍如何从文件浏览器创建新文件，目录，分支或标记，以上所有这些操作都可以通过一个下拉菜单获得。
+有时，直接从 CODE CHINA 界面进行快速更改要比克隆项目并使用 Gi​​t 命令行工具更容易。接下来，我们重点介绍如何从文件浏览器创建新文件，目录，分支或标记，以上所有这些操作都可以通过一个下拉菜单获得。
 
 ## 创建文件[](#create-a-file "Permalink")
 
@@ -14,7 +14,7 @@
 
 ### 文件模板[](#template-dropdowns "Permalink")
 
-启动新项目时，新项目可能也需要一些通用文件，CODEChina 将在仓库中提示您新建这些文件。
+启动新项目时，新项目可能也需要一些通用文件，CODE CHINA 将在仓库中提示您新建这些文件。
 
 [![First file for your project](/docs/img/web_editor_template_dropdown_first_file.png)](/docs/img/web_editor_template_dropdown_first_file.png)
 
@@ -44,7 +44,7 @@
 
 ## 新建分支[](#create-a-new-branch "Permalink")
 
-有多种方法可从 CODEChina 的界面创建分支。
+有多种方法可从 CODE CHINA 的界面创建分支。
 
 ### 从 Issue 创建一个新分支[](#create-a-new-branch-from-an-issue "Permalink")
 
@@ -58,7 +58,7 @@
 
 选择这些选项之一后，将基于项目的默认分支（默认为`master`创建新的分支或分支与合并请求. 分支名称将基于 Issue 的标题，并作为前缀具有其内部 ID。因此，上面的示例屏幕快照将创建一个名为`1-webpack`的分支。
 
-当您在一个空的项目中单击**创建分支**按钮时，CODEChina 会自动创建一个`master`分支， `README`提交一个空白的`README`文件，并根据 Issue 标题创建并将您重定向到新分支（如果您的项目已经配置了）。
+当您在一个空的项目中单击**创建分支**按钮时，CODE CHINA 会自动创建一个`master`分支， `README`提交一个空白的`README`文件，并根据 Issue 标题创建并将您重定向到新分支（如果您的项目已经配置了）。
 
 创建分支后，您可以编辑代码仓库中的文件以解决此 Issue。当基于新创建的分支创建合并请求时，描述字段将自动显示[ Issue 关闭模式](/docs/user/project/issues/manage#closing-issues-automatically) `Closes #ID` ，其中`ID`为 Issue 的 ID，一旦合并请求被合并， Issue 将自动关闭。
 

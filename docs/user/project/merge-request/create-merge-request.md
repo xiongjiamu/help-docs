@@ -1,12 +1,12 @@
 # 创建合并请求[](#创建合并请求 "Permalink")
 
-每个合并请求都从创建一个分支开始，您可以通过[命令行](#从本地新建合并请求) ，Git CLI 应用程序或[CODEChina WEB](#来自新建分支的合并请求)完成分支的创建。
+每个合并请求都从创建一个分支开始，您可以通过[命令行](#从本地新建合并请求) ，Git CLI 应用程序或[CODE CHINA WEB](#来自新建分支的合并请求)完成分支的创建。
 
 本文档介绍了创建合并请求的几种方法。
 
 启动新的合并请求时，无论使用哪种方法，都将转到[**新合并请求**](#新建合并请求)页面，并在其中添加合并请求相关的信息。
 
-如果将新分支推送到 CODEChina，不论使用哪种方法，都可以单击[**创建合并请求**](#创建合并请求按钮)按钮并从此处启动合并请求。
+如果将新分支推送到 CODE CHINA，不论使用哪种方法，都可以单击[**创建合并请求**](#创建合并请求按钮)按钮并从此处启动合并请求。
 
 ## 新建合并请求[](#new-merge-request-page "Permalink")
 
@@ -16,11 +16,11 @@
 
 在初始屏幕上，您还可以查看提交合并请求之前推送到分支的所有提交，管道和文件更改。
 
-**提示：**您可以在创建合并请求之前将一次或多次推送到 CODEChina 中的分支。
+**提示：**您可以在创建合并请求之前将一次或多次推送到 CODE CHINA 中的分支。
 
 ## 创建合并请求按钮[](#create-merge-request-button "Permalink")
 
-将新分支推送到 CODEChina 后，请访问 CODEChina 中的代码仓库，并在屏幕顶​​部看到一个提示，您可以从中单击**创建合并请求**按钮。
+将新分支推送到 CODE CHINA 后，请访问 CODE CHINA 中的代码仓库，并在屏幕顶​​部看到一个提示，您可以从中单击**创建合并请求**按钮。
 
 您还可以在以下页面的右上方看到**创建合并请求**按钮：
 
@@ -68,13 +68,13 @@ git add .
 git commit -m "My commit message" 
 ```
 
-完成后，将分支推送到 CODEChina ：
+完成后，将分支推送到 CODE CHINA ：
 
 ```markdown
 git push origin my-new-branch 
 ```
 
-在输出中，CODEChina 将提示您一个直接链接来创建合并请求：
+在输出中，CODE CHINA 将提示您一个直接链接来创建合并请求：
 
 ```markdown
 ...
@@ -86,7 +86,7 @@ remote:   https://codechina.csdn.net/my-group/my-project/merge_requests/new?merg
 
 在通过命令行推送时 ，还可以向命令添加一些标志，以减少通过界面手动编辑合并请求的需要。
 
-如果您没有通过命令行将分支推送到 CODEChina（例如，您使用 Git CLI 应用程序来推送更改），则可以通过单击" [**创建合并请求**](#创建合并请求按钮)按钮 [**创建合并请求**](#创建合并请求按钮) 。
+如果您没有通过命令行将分支推送到 CODE CHINA（例如，您使用 Git CLI 应用程序来推送更改），则可以通过单击" [**创建合并请求**](#创建合并请求按钮)按钮 [**创建合并请求**](#创建合并请求按钮) 。
 
 ## 从 Issue 新建合并请求[](#new-merge-request-from-an-issue "Permalink")
 
@@ -119,4 +119,4 @@ Fork 项目在本地更改后，可以通过以下步骤从 fork 创建一个合
 
 ## 审查和管理合并请求[](#reviewing-and-managing-merge-requests "Permalink")
 
-提交合并请求后，可以通过 CODEChina 进行[审查和管理](/docs/user/project/merge-request/reviewing)。
+提交合并请求后，可以通过 CODE CHINA 进行[审查和管理](/docs/user/project/merge-request/reviewing)。

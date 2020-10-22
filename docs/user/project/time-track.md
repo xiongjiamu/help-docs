@@ -1,6 +1,6 @@
 # 时间跟踪[](#time-track "Permalink")
 
-时间跟踪允许您跟踪估计和花费在问题上的时间以及在 CODEChina 中合并请求。
+时间跟踪允许您跟踪估计和花费在问题上的时间以及在 CODE CHINA 中合并请求。
 
 ## 概览[](#overview "Permalink")
 

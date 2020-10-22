@@ -6,9 +6,9 @@
 
 ## 创建个人访问令牌[](#creating-a-personal-access-token "Permalink")
 
-您可以在 CODEChina 个人资料中创建任意数量的个人访问令牌：
+您可以在 CODE CHINA 个人资料中创建任意数量的个人访问令牌：
 
-1.  登录到 CODEChina
+1.  登录到 CODE CHINA
 2.  点击右上角的头像，然后选择**设置** 
 3.  在**用户设置**菜单上，选择**访问令牌** 
 4.  选择令牌的名称和可选的到期日期.

@@ -1,6 +1,6 @@
 # 用户账号[](#用户账号 "Permalink")
 
-您的个人资料请前往 [CSDN 个人中心](https://i.csdn.net/#/uc/profile) 进行修改设置，修改后的资料我们将在您下次一登录 CODEChina 的时候进行同步更新。
+您的个人资料请前往 [CSDN 个人中心](https://i.csdn.net/#/uc/profile) 进行修改设置，修改后的资料我们将在您下次一登录 CODE CHINA 的时候进行同步更新。
 
 ## 个人资料[](#user-profile "Permalink")
 
