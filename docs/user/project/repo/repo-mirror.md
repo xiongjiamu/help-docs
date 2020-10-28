@@ -62,7 +62,7 @@
 
 启用**保持差异 refs**选项后，将跳过`develop`分支，从而可以更新`master`和`stable`。镜像将反映`develop`已偏离并被跳过，并标记为更新失败。
 
-## 创建一个从 CODE CHINA 到 Github 的镜像[](#setting-up-a-push-mirror-from-CODE CHINA-to-github-core "Permalink")
+## 创建一个从 CODE CHINA 到 Github 的镜像[ ](#setting-up-a-push-mirror-from-CODE CHINA-to-github-core "Permalink")
 
 要设置从 CODE CHINA 到 GitHub 的镜像，您需要执行以下步骤：
 
